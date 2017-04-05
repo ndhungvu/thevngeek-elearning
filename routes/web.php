@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 | contains the "web" middleware group. Now create something great!
 |
 */
-URL::forceSchema('https');
+
 /* /========================ROUTE FOR CLIENT========================/ */
 
 Route::group(['namespace' => 'Client'], function() {

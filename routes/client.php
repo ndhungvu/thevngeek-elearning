@@ -1,4 +1,6 @@
 <?php
+URL::forceSchema('https');
+
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@getIndex']);
 
 Route::group(['prefix' => 'tutorial'], function() {
