@@ -1,0 +1,2397 @@
+#main {}
+	#header {
+		width: 977px;
+		margin: 0 auto;
+		height: 110px;
+		position: relative;
+		/*overflow: hidden;*/
+	}
+	#header .x-mas-road {
+		position: relative;
+		overflow: hidden;
+		float: left;
+		width: 432px;
+		height: 110px;
+	}
+		.x-mas-header-img{
+			position: absolute;
+			/*left: -250px;*/
+			/*top: 40px;*/
+			bottom: -14px;
+		}
+			.x-mas-header-img img{
+				width: 250px;
+				/*height: 48px;*/
+			}
+
+	body p,body em,body a{
+		line-height: 1.5!important;
+	}
+	body blockquote a {
+		line-height: 1.3!important;
+	}
+
+		#header h1 {
+			float: left;
+			width: 326px;
+		}
+			#header h1 a:link,
+			#header h1 a:visited {	
+				/*background: url(../images/logo.jpg) no-repeat left top;*/
+				display: block;
+				width: 326px;
+				height: 80px;
+				text-indent: -1000em;
+				margin-top: 14px;
+			}
+		.HeaderContent {
+			float: right;
+			width: 346px;
+			padding: 9px 12px 0 0;
+            bottom: 0;
+		}
+			.FuncWrapper {
+				width: 145px;
+				float: right;
+				overflow: hidden;
+				padding: 12px 0 0 0;
+			}
+
+				.PrintBtn:link,
+				.PrintBtn:visited {
+					float: right;
+					padding: 2px 9px 0 23px;
+					color: #FAA614;
+					font-size: 10px;
+				}
+				.LanguageList {
+					float: right;
+					padding: 0;
+				}
+					.LanguageList li {
+						margin-top: -2px;
+						padding: 0 0 0 7px;
+						float: left;
+					}
+			.FuncWrapper02 {
+				width: 100%;
+				overflow: hidden;
+				padding: 2px 0 0 0;
+			}
+				.FuncWrapper02 li {
+					float: right;
+					padding: 0 10px 0 12px;
+				}
+				.FuncWrapper02 li.First {
+					background: url(../images/border-01.gif) no-repeat left center;
+					padding-right: 0;
+				}
+					.FuncWrapper02 li a:link,
+					.FuncWrapper02 li a:visited {
+						color: #007476;
+						font-size: 12px;
+					}
+                                        .FuncWrapper02 li a.Eng-flag {
+						background: url(../images/uk_flag.jpg) no-repeat left top;
+                                                display: block;
+                                                height: 15px;
+                                                padding-left: 39px;
+                                                padding-top: 1px;
+					}
+                                        .FuncWrapper02 li a.VN-flag {
+						background: url(../images/vn_flag.jpg) no-repeat left top;
+                                                display: block;
+                                                height: 15px;
+                                                padding-left: 36px;
+                                                padding-top: 1px;
+					}
+			.SearchBox {
+				width: 100%;
+				overflow: hidden;
+				/*padding: 9px 0 0 0;*/
+			}
+			ul,ol{
+				margin-bottom: 0!important;
+			}
+				.SearchSubmit {
+					background: url(../images/btn-search.jpg) no-repeat left top;
+					float: right;
+					width: 66px;
+					height: 23px;
+					font-size: 0px;
+					border: none;
+					cursor: pointer;
+				}
+				.SearchTextBox {
+					float: right;
+					width: 180px;
+					height: 20px;
+					margin: 0 15px 0 0;
+					padding: 0;
+					border: 1px solid #7e9eb7;
+					font-size: 11px;
+				}
+	.MenuWrapper {
+		background: url(../images/bg-menu.gif) repeat-x left top;
+		height: 47px;
+	}
+		#menu {
+			width: 977px;
+			margin: 0 auto;
+			height: 47px;
+		}
+
+			#menu li {
+				float: left;
+				background: url(../images/border-menu.png) no-repeat left 7px;
+				padding: 5px 10px 0 13px;
+				margin-bottom: 0!important;
+			}
+			#menu .First {
+				background: none;
+			}
+				#menu li a:link,
+				#menu li a:visited {
+					font-size: 12px;
+					font-weight: bolder;
+					color: #FFF;
+					padding: 10px 0;
+					display: block;
+				}
+				#menu li a:hover,
+				#menu li a.Active:link,
+				#menu li a.Active:visited {
+					text-decoration: none;
+					color: #FAA614;
+				}
+#menu2 {
+	width: 977px;
+	float:left;
+}
+#menu2 li{
+	color: #000;
+	font-size: 11px;
+}
+.flash{
+	margin: 0 5px;
+}
+#menu2 li:last-child span{
+	display: none;
+}
+#menu2 li:first-child{
+	margin-left: 0;
+}
+#menu2 li a:link{
+	padding: 0;
+	color: #000;
+}
+#menu2 li a:visited {
+	color: #000;
+}
+	.MainContentOuter {
+		background: url(../images/bg-content-loop.gif) repeat left top;
+	}
+	.MainContent {
+		background: url(../images/bg-content-header.gif) repeat-x left top;
+	}
+	.MainContentInner {
+		background: url(../images/bg-content-bottom.png) repeat-x left bottom;
+	}
+		#content {
+			width: 977px;
+			margin: 0 auto;
+			position: relative;
+		}
+			.Service {
+				/*background: #e2e9e2 url(../images/bg-intro-loop.jpg) repeat-x left top;*/
+				background-color: #FFF;
+				height: 380px;
+			}
+				.Service h2 {
+					color: #007476;
+					font-size: 21px;
+					text-transform: uppercase;
+					font-weight: normal;
+					padding: 15px 0 12px 12px;
+					width: 679px;
+					text-align: center;
+				}
+				.ServiceContent {
+					padding: 0 0 0 25px;
+					overflow: hidden;
+					width: 679px;
+				}
+					.ServiceIntroImg {
+						float: left;
+                                                margin-right: 5px;
+					}
+					.BestHospitalImg {
+						float: left;
+						padding: 0 17px 0 14px;
+					}
+					.ServiceContent ul {
+						float: left;
+						overflow: hidden;
+						width: 400px;
+					}
+						.ServiceContent ul li {
+							float: left;
+							width: 200px;
+							padding: 0 0 10px 0;
+						}
+							.ServiceContent ul li a:link,
+							.ServiceContent ul li a:visited {
+								color: #007476;
+								font-size: 14px;
+								padding: 0 0 0 25px;
+								background: url(../images/icon-list-02.png) no-repeat left 1px;
+							}
+			.News {
+				background: #FFF none;
+				overflow: hidden;
+			}
+				.MainNews {
+					width: 312px;
+					float: left;
+					padding: 0 0 0 12px;
+				}
+					.MainNews h3 {
+						color: #007476;
+						font-size: 18px;
+						text-transform: uppercase;
+						font-weight: normal;
+						padding: 18px 0 20px;
+					}
+.MainNews h3 a{
+	text-decoration: none;
+	cursor: pointer;
+}
+					.MainNews p {
+						background: url(../images/icon-list-01.gif) no-repeat 5px 5px;
+						color: #707070;
+						font-size: 13px;
+						padding: 0 0 10px 0;
+					}
+						.MainNews p span {
+							padding: 0 0 0 20px;
+						}
+				.ListNews {
+					float: left;
+					width: 355px;
+
+/*                                        margin: 0 !important;*/
+				}
+					.ListNews h3 {
+						color: #007476;
+						font-size: 18px;
+						text-transform: uppercase;
+						font-weight: normal;
+						padding: 20px 0 20px 20px;
+					}
+					.ListNews ul {
+						background: url(../images/bg-news.png) no-repeat left center;
+/*                                                height: 360px;*/
+						padding: 0 0 0 14px;
+/*                                                float: left;*/
+					}
+						.ListNews ul li {
+							border-top: 1px solid #e5e5e5;
+							overflow: hidden;
+						}
+						.ListNews ul li.First {
+							border-top: none;
+						}
+							.ListNews ul li .NewsImg {
+								float: left;
+								width: 102px;
+								background: url(../images/border-03.gif) repeat-y right top;
+								padding: 15px 0;
+								text-align: center;
+							}
+							.ListNews ul li .NewsContent {
+								float: right;
+								width: 227px;
+								font-size: 12px;
+								padding: 10px 0 0 0;
+							}
+								.NewsContent h4 {
+									color: #075dad;
+									font-weight: normal;
+								}
+									.NewsContent h4 a:link,
+									.NewsContent h4 a:visited {
+										color: #075dad;
+									}
+								.NewsContent p {
+									color: #3e3d3d;
+								}
+			.Member {
+				/*background: url(../images/bg-carousel.jpg) no-repeat left top;*/
+				width: 263px;
+				height: 460px;
+				float: right;
+                                position: absolute;
+                                top: 572px;
+                                right: 12px;
+                                padding: 25px 0 5px 13px;
+                                background: url("../images/bg-news.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+				/*margin-top: 240px;*/
+
+			}
+			.Member ul li a img{
+				width:100%;
+			}
+				.ConnectedList {
+					overflow: hidden;
+					padding: 0 0 0 42px;
+				}
+					.ConnectedList li {
+						float: left;
+						padding-right: 7px;
+					}
+			.Feedback {
+				background: url(../images/bg-feedback.png) no-repeat left top;
+				width: 275px;
+				height: 260px;
+				position: absolute;
+				right: 12px;
+				top: 317px;
+				font-size: 11px;
+			}
+				.Feedback blockquote {
+					color: #FFF;
+					width: 195px;
+                    height: 60px;
+                    overflow: hidden;
+					padding: 64px 0 0 5px;
+				}
+                                .Feedback blockquote a{
+					color: #FFF;
+				}
+                                .Feedback .Feedback-title {
+					color: #e5e5e5;
+					width: 195px;
+					padding: 9px 0 0 25px;
+                                        position: inherit;
+                                        font-size: 18px;
+				}
+				.Feedback cite {
+					color: #FAA614;
+					font-style: normal;
+					display: block;
+					padding: 53px 0 0 0;
+				}
+				.Feedback p {
+					color: #FFF;
+					width: 216px;
+					padding: 33px 0 19px 25px;
+                                        margin-left: 10px;
+				}
+				.TextBoxWrapper {
+					overflow: hidden;
+				}
+					.UsernameTextBox {
+						background: url(../images/btn-username.gif) no-repeat right top;
+						width: 109px;
+						height: 27px;
+						padding: 0 0 0 33px;
+						float: left;
+					}
+					.EmailTextBox {
+						background: url(../images/btn-username.gif) no-repeat right top;
+						width: 109px;
+						height: 27px;
+						padding: 0 0 0 6px;
+						float: left;
+					}
+					.TextBoxWrapper input {
+						border: none;
+						background: none;
+						font-size: 11px;
+						color: #63574b;
+						padding: 0 10px;
+						width: 89px;
+						height: 27px;
+					}
+					.ContentArea {
+						background: url(../images/bg-textarea.gif) no-repeat right bottom;
+						width: 224px;
+						height: 85px;
+						padding: 10px 0 0 33px;
+					}
+						.ContentArea textarea {
+							background: none;
+							border: none;
+							font-size: 11px;
+							width: 204px;
+							height: 65px;
+							margin: 0;
+							padding: 10px;
+							color: #63574b;
+						}
+					.SendBtn {
+						background: url(../images/btn-send.gif) no-repeat left top;
+						width: 59px;
+						height: 23px;
+						border: none;
+						font-size: 12px;
+						font-weight: bolder;
+						color: #FFF;
+						padding: 0;
+						margin: 10px 0 0 190px;
+						cursor: pointer;
+					}
+	#footer {
+		width: 952px;
+		margin: 34px auto 0;
+		background: url(../images/border-04.gif) repeat-x left top;
+	}
+		.CopyrightWrapper {
+			/*background: url(../images/border-04.gif) repeat-x left bottom;*/
+			padding: 13px 0;
+			overflow: hidden;
+			width: 100%;
+		}
+			.CopyrightWrapper p {
+				font-size: 12px;
+				color: #007476;
+				float: left;
+				width: 600px;
+			}
+			.CopyrightWrapper ul {
+				float: right;
+			}
+				.CopyrightWrapper ul li {
+					float: left;
+					color: #007476;
+					font-size: 13px;
+				}
+					.CopyrightWrapper ul li a:link,
+					.CopyrightWrapper ul li a:visited {
+						color: #007476;
+						padding: 0 0 0 5px;
+					}
+		.PartnerList {
+			text-align: center;
+			width: 100%;
+			padding: 24px 0 32px 0;
+		}
+			.PartnerList a:link,
+			.PartnerList a:visited {
+				padding: 0 40px 0 0;
+			}
+		.BranchList {
+			width: 100%;
+			overflow: hidden;
+			padding: 0 0 10px 0;
+		}
+			.BranchList li {
+				float: left;
+				padding: 0 10px;
+				width: 220px;
+				font-size: 12px;
+				background: url(../images/border-02.gif) no-repeat left top;
+			}
+			.BranchList li.First {
+				padding-left: 0;
+				background: none;
+			}
+				.BranchList li h4 {
+					color: #727274;
+                                        padding: 0;
+                                        margin: 0;
+				}
+				.BranchList li address {
+					color: #000;
+					font-style: normal;
+					line-height: 20px;
+				}
+					.BranchList li address a:link,
+					.BranchList li address a:visited {
+						color: #8b7154;
+					}
+		.BranchListA {
+			background: url(../images/border-04.gif) repeat-x left bottom;
+			width: 100%;
+            margin: 10px auto;
+			overflow: hidden;
+			padding: 10px 0;
+                        font-family: 'Arial';
+                        font-size: 12px;
+                        text-align: center;
+                        color: #8b7154;
+		}
+                        .BranchListA h4{
+                                color: #007476;
+                                font-size: 14px;
+                        }
+                        .BranchListA address{
+                                color: #000;
+				font-style: normal;
+				line-height: 20px;
+                        }
+/* bacsy.html */
+.ContentWrapper {
+	background: #FFF none;
+	overflow: hidden;
+	width: 100%;
+}
+	.SubContent {
+		float: left;
+		width: 683px;
+		padding: 8px 0 0 12px;
+		/*background: url(../images/border-05.png) no-repeat 12px 26px;*/
+	}
+	.MajorWrapper {
+		padding:8px 0 8px 19px;
+	}
+		.MajorWrapper h3,
+		.SubContent h3,
+		.SubContent h2,
+		.MajorWrapper h2{
+			background: url(../images/icon-yersin.gif) no-repeat left top;
+			font-size: 14px;
+			color: #FAA614;
+			margin:0;
+			padding: 0 0 0 22px;
+		}
+		.SubContent h4 a {
+			color: #FAA614;
+		}
+		.SubContent h4 span,.SubContent h2 span {
+			color:#007476;
+			font-size:12px;
+			font-weight:normal;
+			text-transform:uppercase;
+		}
+       .SubContentAff {
+		float: left;
+		width: 683px;
+		padding: 5px 0 0 12px;
+		background: url(../images/border-05.png) no-repeat 12px 26px;
+                font-size: 12px;
+                min-height: 50px;
+	}
+	.MajorWrapper {
+		padding:8px 0 8px 19px;
+	}
+		.MajorWrapper h4,
+		.SubContentAff h4 {
+			background: url(../images/icon-yersin.gif) no-repeat left top;
+			font-size: 14px;
+			color: #FAA614;
+			padding: 0 0 0 22px;
+		}
+		.SubContentAff h4 a {
+			color: #FAA614;
+		}
+		.SubContentAff h4 span {
+			color:#007476;
+			font-size:12px;
+			font-weight:normal;
+			text-transform:uppercase;
+		}
+		.DoctorTable {
+			padding: 22px 0 0 0;
+                        border-collapse:collapse;
+                        margin-top: 15px;
+		}
+			.DoctorTable th {
+				background: #007476 none;
+				border-right: 1px solid #FFF;
+				font-size: 12px;
+				color: #FFF;
+				height: 27px;
+			}
+			.DoctorTable td {
+				background: #a7d2d2 none;
+				border-right: 1px solid #FFF;
+				border-top: 1px solid #FFF;
+				font-size: 12px;
+				color: #3b3b3b;
+				padding: 2px 6px;
+			}
+			.DoctorTable td.AlignCenter {
+				text-align: center;
+			}
+			.DoctorTable td .AlignCenter a:link{
+				text-align: center;
+                                color: #3b3b3b;
+			}
+                        .DoctorTable td .AlignCenter a:visited{
+				text-align: center;
+                                color: #007476;
+			}
+                        .DoctorTable td .Details{
+				text-align: center;
+                                color: #007476 !important;
+/*                                text-decoration: none;*/
+			}
+			.DoctorTable td.ViewDetail {
+				padding-top: 25px;
+			}
+			.DoctorTable .even td {
+				background: #deefef none;
+				border-right: 1px solid #FFF;
+				border-top: 1px solid #FFF;
+			}
+                .AffiliateReportTable {
+			padding: 22px 0 0 0;
+                        border-collapse:collapse;
+                        margin-top: 15px;
+                        width: 100%;
+		}
+			.AffiliateReportTable th {
+				background: #1a586d none;
+				border-right: 1px solid #FFF;
+				font-size: 12px;
+				color: #FFF;
+				height: 27px;
+			}
+                        .AffiliateReportTable th a{
+				color: #FFF;
+			}
+			.AffiliateReportTable td {
+				background: #a7d2d2 none;
+				border-right: 1px solid #FFF;
+				border-top: 1px solid #FFF;
+				font-size: 12px;
+				color: #3b3b3b;
+				padding: 2px 6px;
+			}
+			.AffiliateReportTable td.AlignCenter {
+				text-align: center;
+			}
+			.AffiliateReportTable td .AlignCenter a:link{
+				text-align: center;
+                                color: #3b3b3b;
+			}
+                        .AffiliateReportTable td .AlignCenter a:visited{
+				text-align: center;
+                                color: #007476;
+			}
+                        .AffiliateReportTable td .Details{
+				text-align: center;
+                                color: #007476 !important;
+/*                                text-decoration: none;*/
+			}
+			.AffiliateReportTable td.ViewDetail {
+				padding-top: 25px;
+			}
+			.AffiliateReportTable .even td {
+				background: #deefef none;
+				border-right: 1px solid #FFF;
+				border-top: 1px solid #FFF;
+			}
+			.LinkStyle01:link,
+			.LinkStyle01:visited {
+				background: url(../images/icon-viewdetail.png) no-repeat center top;
+				font-size: 10px;
+				color: #007476 !important;
+				padding: 20px 0 0 0;
+			}
+		.DocumentWrapper {
+/*			background: url(../images/bg-document.jpg) no-repeat left top;*/
+			width: 676px;
+/*			height: 423px;*/
+                        padding-bottom: 10px;
+		}
+		.DocumentWrapperTheme01 {
+/*			background: url(../images/bg-document-01.jpg) no-repeat left top;*/
+			margin:9px 0 0 0;
+/*			min-height:373px;*/
+			height:auto !important;
+			height:373px;
+		}
+		.DocumentWrapperTheme02 {
+/*			background: url(../images/bg-document-02.jpg) no-repeat left top;*/
+/*			min-height:381px;*/
+			height:auto !important;
+			height:381px;
+		}
+		.DocumentWrapperTheme03 {
+/*			background: url(../images/bg-document-03.jpg) no-repeat left top;*/
+/*			min-height:379px;*/
+			height:auto !important;
+			height:379px;
+		}
+		.DocumentWrapperTheme04 {
+/*			background: #edecec url(../images/bg-document-04.jpg) repeat-x left top;*/
+			margin:8px 0 0;
+			height:auto;
+			width:100%;
+		}
+                        .DocumentWrapperTheme04 h5,.DocumentWrapperTheme04 h1{
+                                padding-left: 25px !important;
+                                padding-right: 20px !important;
+                        }
+		.DocumentWrapperTheme05 {
+/*			background:#e3e3e2 url(../images/bg-document-05.jpg) repeat-x left top;*/
+			width:100%;
+			height:auto;
+		}
+		.DocumentWrapperInfo01 {
+			padding:0 20px 0 25px;
+		}
+                        .DocumentWrapperInfo01 #news-description{
+                                font-size:14px;
+/*                                font-weight:bold;*/
+                                font-style: italic;
+                                word-spacing:1px;
+                                line-height: 20px;
+                                padding:0 0 18px 0;
+/*                                background-color: gray;*/
+
+                        }
+                        .DocumentWrapperInfo01 #news-content{
+                                font-size:14px;
+                                word-spacing:1px;
+                                line-height: 20px;
+/*                                padding:0 0 13px 5px;*/
+                        }
+		.DocumentWrapperIn01 {
+			background:url(../images/bg-document-top.png) no-repeat left top;
+		}
+			.DocumentWrapper h5,.DocumentWrapper h1 {
+				color: #007476;
+				font-size: 20px;
+				padding: 10px 0 10px 10px;
+			}
+			.DocumentWrapperTheme05 h5 {
+				padding-bottom:0;
+			}
+			.DocumentWrapper01 h5, .DocumentWrapper01 h3,.DocumentWrapper01 h1 {
+				text-transform:uppercase;
+				padding:12px 0 0 24px;
+				color:#007476;
+				font-size:12px;
+				background: transparent;
+			}
+			.ListDocument {
+
+			}
+				.ListDocument01 li,
+				.ListDocument li {
+					overflow: hidden;
+					background: url(../images/border-08.gif) repeat-x left top;
+				}
+				.ListDocument01 li.First,
+				.ListDocument li.First {
+					background: none;
+				}
+					.ListDocument li .Image {
+						width: 88px;
+						float: left;
+						background: url(../images/border-07.gif) repeat-y right top;
+						text-align: center;
+						padding: 15px 0;
+					}
+					.ListDocument li .Info {
+						width: 570px;
+						float: right;
+						padding: 0 5px;
+					}
+						.ListDocument li .Info h6 {
+							color: #075dad;
+							font-size: 12px;
+							font-weight: normal;
+							padding: 10px 0 0 0;
+						}
+						.ListDocument li .Info h6 a{
+							color: #075dad;
+							font-size: 12px;
+							font-weight: normal;
+							padding: 10px 0 0 0;
+                                                        text-decoration: none;
+						}
+						.ListDocument li .Info p {
+							color: #474747;
+							font-size: 12px;
+							padding: 3px 0 0 0;
+						}
+			.ListDocument01 {
+				padding:0 18px;
+			}
+			.DocumentWrapperTheme05 .ListDocument01 {
+				padding:0;
+			}
+				.ListDocument01 li {
+					padding:15px 0 8px;
+				}
+					.ListDocument01 li .Image {
+						width:112px;
+						text-align:center;
+						float:left;
+					}
+					.DocumentWrapperTheme05 .ListDocument01 li .Image {
+						text-align:center;
+						float:left;
+						width:84px;
+						margin:0 12px 0 0;
+					}
+					.ListDocument01 li .Info {
+						width: 518px;
+						float: right;
+/*                                                width: 640px;
+						float: left;*/
+						padding: 0 5px;
+					}
+					.DocumentWrapperTheme05 .ListDocument01 li .Info {
+						width:577px;
+/*                                                width:640px;*/
+					}
+						.ListDocument01 li .Info h6,.ListDocument01 li .Info h4{
+							font-size:12px;
+							font-weight:bold;
+							text-transform:uppercase;
+						}
+						.DocumentWrapper .ListDocument01 li .Info h6 {
+							text-transform:inherit;
+						}
+						.ListDocument01 li .Info h6 a {
+							color:#007476;
+						}
+						.ListDocument01 li .Info p {
+							color: #004451;
+							font-size: 12px;
+							padding: 3px 0 0 0;
+						}
+						.ListDocument01 li .Info p.MoreSeeLink {
+							padding:0;
+						}
+                                                        .ListDocument01 li .Info p.MoreSeeLink a {
+                                                                color: #FFF !important;
+                                                        }
+.PhotoDetailWrapper {
+	float:left;
+	width:280px;
+	margin:0 25px 0 0;
+}
+.ParagraphStyle01 {
+	font-size:14px;
+	font-weight:bold;
+	padding:0 0 18px 0;
+}
+.ParagraphStyle02 {
+	font-size:12px;
+	padding:0 0 13px 18px;
+}
+.ParagraphStyle03 {
+	font-size:10px;
+	text-align:center;
+	padding:6px 0 15px;
+}
+.DoctorDetailWrapper {
+    font-size: 1.1em;
+	background:#e4e5e4 url(../images/bg-doctor-detail.jpg) left top no-repeat;
+	margin:9px 0 0;
+	padding:8px 18px 0 18px;
+}
+.DoctorDetailInfo01 {
+	background:url(../images/bg-doctor-top.jpg) left top no-repeat;
+	padding:5px 0 0;
+	width:651px;
+}
+.DoctorDetailInfoIn01 {
+	background:#cccccc url(../images/bg-doctor-bt.jpg) left bottom no-repeat;
+	width:641px;
+	padding:3px 0 10px 10px;
+}
+.TempStyle01 {
+	float:left;
+	width:105px;
+	padding:0 12px 0 0;
+	text-align:right;
+}
+.TempStyle02 {
+	float:left;
+	width:355px;
+}
+.TempStyle03 {
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.DoctorDetailInfoIn01 .Image {
+	float:left;
+	width:124px;
+	padding:0 27px 0 0;
+}
+.DoctorDetailInfoSub01 {
+	float:left;
+	width:490px;
+	padding:14px 0 0;
+}
+.DoctorDetailInfoSub01 .ParagraphStyle02 {
+	padding:0 0 5px;
+}
+.DoctorDetailInfo02 {
+	padding:0 0 0 10px;
+        font-size:12px;
+}
+.DoctorDetailInfo02 h5 {
+	font-size:12px;
+	padding:0 0 3px;
+}
+.DoctorDetailInfo02 .ParagraphStyle02 {
+	padding:0 0 5px;
+}
+.DoctorDetailInfoSub02 {
+	padding:20px 0 0;
+}
+.OrderVisitDocterStyle {
+	font-size:10px;
+	padding:26px 0 10px;
+}
+.OrderVisitDocterStyle a.OrderVisitDocterLinkStyle {
+	background:url(../images/bg-doctor-button.gif) left top no-repeat;
+	color:#fff !important;
+	text-transform:uppercase;
+	width:84px;
+	margin:0 auto;
+	display:block;
+	padding:5px 0 0;
+	height:19px;
+	text-align:center;
+}
+.MoreSeeLink a {
+	font-size:10px;
+	color:#fff;
+	text-transform:uppercase;
+	float:right;
+	background:url(../images/bg-moresee.gif) left top no-repeat;
+	width:65px;
+	height:16px;
+	padding:3px 0 0;
+	text-align:center;
+}
+.PagingWrapper02 {
+	overflow: hidden;
+	padding: 0 0 10px 0;
+}
+        .PagingWrapper02 li{
+                border: 0 !important;
+        }
+        .PagingWrapper02 ul{
+                border: 0 !important;
+        }
+.DocumentWrapper .PagingWrapper02 {
+	padding: 5px 0 0 0;
+}
+.DocumentWrapperTheme05 .PagingWrapper02 {
+	padding:8px 0 12px;
+}
+	.PagingWrapper {
+		position: relative;
+		float: left;
+		right: -50%;
+	}
+		.Paging {
+			overflow: hidden;
+			position: relative;
+			right: 50%;
+		}
+			.Paging .PrevBtn:link,
+			.Paging .PrevBtn:visited,
+			.Paging .NextBtn:link,
+			.Paging .NextBtn:visited {
+				background: url(../images/bg-next-prev.gif) no-repeat left top;
+				width: 34px;
+				height: 17px;
+				text-align: center;
+				float: left;
+				color: #474747;
+				padding: 4px 0 0 0;
+			}
+			.Paging .PrevBtn:hover,
+			.Paging .NextBtn:hover {
+				background: url(../images/bg-next-prev-active.gif) no-repeat left top;
+				text-decoration: none;
+				color: #FFF;
+			}
+			.Paging ul {
+				float: left;
+				overflow: hidden;
+				padding: 0 0 0 2px;
+			}
+				.Paging ul li {
+					float: left;
+					padding: 0 2px 0 0;
+                                        background: none !important;
+				}
+					.Paging ul li a:link,
+					.Paging ul li a:visited {
+						background: url(../images/bg-paging-number.gif) no-repeat left top;
+						width: 25px;
+						height: 17px;
+						display: block;
+						text-align: center;
+						color: #474747;
+						padding: 4px 0 0 0;
+					}
+					.Paging ul li.selected a:link,
+					.Paging ul li.selected a:visited,
+					.Paging ul li a:hover {
+						/*background: url(../images/bg-paging-number-active.gif) no-repeat left top;*/
+						background:#faa614;
+						
+					/*	border:1px solid #ccc;*/
+						border-radius: 3px;
+						text-decoration: none;
+						color: #FFF;
+					}
+	.SideContent {
+		float: right;
+		width: 282px;
+		margin-top:10px;
+		/*padding:220px 0 0 0;*/
+	}
+	.SideContent-document{
+		padding:220px 0 0 0;
+	}
+		.SubContent01Wrapper {
+			background: #007476 url(../images/bg-carousel-top.gif) no-repeat left top;
+			width:250px;
+			margin:0 0 0 16px;
+		}
+                .SubContent01WrapperWidget {
+			background: #038099 url(../images/bg-carousel-top-widget.gif) no-repeat left top;
+			width:160px;
+			/*margin:0 0 0 16px;*/
+		}
+		.SubContent02Wrapper {
+                        width: 250px !important;
+			/*background:url(../images/bg-menuRightTop.jpg) left top no-repeat;*/
+			margin:0 0 12px 16px;
+                        /*background-color: #f0ba10;*/
+		}
+                .SubContent02Wrapper .MenuRight {
+/*			background:url(../images/bg-menuRightContent.png) left top repeat-y;
+                        top: 139px;
+                        border: 1px solid black;*/
+		}
+			.MenuRightList {
+				background:url(../images/bg-menuRightBottom.jpg) left bottom no-repeat;
+				padding:12px 0 17px;
+			}
+			.MenuRightList li {
+				background:url(../images/bg-menuRight-item.png) left bottom no-repeat;
+				padding:7px 0 7px 28px;
+                                margin: 0 !important;
+			}
+			.MenuRightList li.EndItem {
+				background:none;
+			}
+			.MenuRightList li a {
+				color:#000;
+				font-size:12px;
+				font-weight:bold;
+			}
+			.MenuRightList li a.Active {
+				color:#fff;
+			}
+			.SubContent01 {
+				background: url(../images/bg-carousel-bottom.gif) no-repeat left bottom;
+				height: 390px;
+			}
+                        .SubContent01WrapperWidget .SubContent01 {
+				background: url(../images/bg-carousel-bottom-widget.gif) no-repeat left bottom;
+				height: 390px;
+			}
+				.SubContent01 h4 {
+					font-size: 12px;
+					color: #FFF;
+					text-align: center;
+					padding: 10px 0 0 0;
+				}
+				.SubContent01 ul li {
+					overflow: hidden;
+					background: url(../images/border-06.png) no-repeat left bottom;
+					padding: 6px 0 2px 0;
+				}
+                                .SubContent01WrapperWidget .SubContent01 ul li {
+					overflow: hidden;
+					background: url(../images/border-06-widget.png) no-repeat left bottom;
+					padding: 6px 0 2px 0;
+				}
+					.SubContent01 ul li .Image {
+						float: left;
+						width: 76px;
+						text-align: center;
+                        padding-bottom: 4px;
+					}
+                                        .SubContent01WrapperWidget .SubContent01 ul li .Image {
+						float: left;
+						width: 60px;
+						text-align: center;
+                                                padding-bottom: 4px;
+					}
+					.SubContent01 ul li .Info {
+						float: left;
+						width: 165px;
+						padding: 5px 5px 0 0;
+					}
+                                        .SubContent01WrapperWidget .SubContent01 ul li .Info {
+						float: left;
+						width: 90px;
+						padding: 5px 5px 0 0;
+					}
+						.SubContent01 ul li .Info h5 {
+							font-size: 12px;
+							color: #FFF;
+						}
+                                                .SubContent01 ul li .Info h5 a{
+							font-size: 12px;
+							color: #FFF;
+                                                        text-decoration: none;
+						}
+                                                .SubContent01WrapperWidget .SubContent01 ul li .Info h5 a{
+							font-size: 9px;
+							color: #FFF;
+                                                        text-decoration: none;
+						}
+						.SubContent01 ul li .Info p {
+							font-size: 10px;
+							color: #FFF;
+						}
+		.SideContent .Member {
+			margin:0;
+			width:282px;
+		}
+		.Adv {
+			padding: 10px 0 0 16px;
+		}
+.GeneralSection01 {
+	padding:0 0 20px 12px;
+}
+.ContentGS01Inner h5 {
+	color:#007476;
+	font-size:18px;
+	text-transform:uppercase;
+	font-weight:normal;
+	padding:0 0 10px;
+}
+.DocumentMjWrapper .Image {
+	padding:0 25px 0 0;
+	float:left;
+}
+.MajorContentList li {
+	padding:0 0 10px;
+	width:330px;
+	float:left;
+}
+.MajorDetailList li {
+	padding:0 0 10px;
+}
+.MajorDetail {
+	width:320px;
+	float:left;
+}
+.MajorContentList li a,
+.MajorDetailList li a {
+	color:#004451;
+	font-size:12px;
+}
+.MajorMenuList-Top{
+background:url(../images/bg-menu-chuyenkhoa-top.png) left top no-repeat;
+height: 5px;
+}
+.MajorMenuList-Bottom{
+    background:url(../images/bg-menu-chuyenkhoa-bottom.png) left top no-repeat;
+    height: 5px;
+}
+.SidebarGS01 { width:264px; float:left; }
+.MajorMenuList { background:url(../images/bg-menu-chuyenkhoa-content.png) left top repeat-y; }
+.MajorMenuList li { background:url(../images/bg-menuItem-ck.png) left bottom no-repeat; margin: 0 !important;}
+.MajorMenuList li.EndItem { background:none; }
+.MajorMenuList li a { font-size:12px; color:#fff; text-transform:uppercase; display:block; padding:8px 0 9px 15px; }
+.MajorMenuList li a:hover, .MajorMenuList li.active  { background:url(../images/bg-menuItemLink-ck.jpg) left top repeat-y; text-decoration:none; }
+/*.MajorMenuList li.last  { background:url(../images/bg-menu-chuyenkhoa.jpg) left bottom no-repeat; text-decoration:none; }*/
+.MajorMenuList li a span {/* background:url(../images/icon-chuyenkhoa.png) left 2px no-repeat; padding:0 0 0 18px; */}
+.ContentGS01 { width:687px; float:left; /*background:url(../images/bg-ck-top.jpg) left top no-repeat;*/ padding:5px 0 0; font-size: 14px; }
+.ContentGS01 p { padding: 5px 0 5px 0}
+.ContentGS01Inner { width: 647px; /*background:#dfdfdf url(../images/bg-ck-bottom.jpg) left bottom no-repeat;*/ padding:10px 20px 20px 20px; min-height:365px; height:auto !important; float:left; }
+
+.ContentGS01Inner ul {
+  margin-left: 1em;
+  padding-left:0.2em;
+  margin-bottom:1em;
+}
+.ContentGS01Inner ul li {
+  padding-left: 0.8em;
+  list-style: circle;
+}
+
+.ContentGS01Inner ol li, ul li { margin-bottom:0.5em; }
+
+.ContentGS01Inner ol {
+  margin-left:1.5em;
+  padding-left:0px;
+}
+
+.DocumentWrapperInfo01 ul {
+  margin-left: 1em;
+  padding-left:0.2em;
+  margin-bottom:1em;
+}
+.DocumentWrapperInfo01 ul li {
+  padding-left: 0.8em;
+  list-style: disc;
+}
+
+.DocumentWrapperInfo01 ul li ul li {
+  padding-left: 0.8em;
+  list-style: circle;
+}
+
+.DocumentWrapperInfo01 ul li ul li ul li {
+  padding-left: 0.8em;
+  list-style: square;
+}
+
+.DocumentWrapperInfo01 ol li, ul li { margin-bottom:0.5em; }
+
+.DocumentWrapperInfo01 ol {
+  margin-left:1.5em;
+  padding-left:0px;
+}
+
+.MajorItemStyle a { color:#424242; font-size:12px; float: left; }
+.MajorItemStyle {float: left;}
+.MajorItem { width:176px; margin:0 30px 0 0; float:left; }
+.MajorItem a { color:#424242; font-size:12px; }
+.GeneralSection02 .SideContent { padding:0; }
+.GeneralSection02 .SideContent .Adv { padding-top:5px; }
+.SideContent .MajorMenuList { width:250px; margin:0 0 0 0px; }
+.DocumentMjWrapper { padding:16px 0 0; }
+.DocumentMjWrapper h5 { font-size:12px; color:#FAA614; text-transform:uppercase; padding:24px 0 10px; }
+/* lienhe */
+.Contact {
+	float: left;
+        padding: 8px 0 0 13px;
+        width: 964px;
+}
+	.Contact h4,.Contact h3  {
+		background: url(../images/icon-yersin.gif) no-repeat 4px top;
+		font-size: 14px;
+		color: #FAA614;
+		padding: 0 0 5px 26px;
+                height: 22px;
+	}
+	.ContactBlockWrapper02 {
+		background: url(../images/bg-contact-loop.gif) repeat-y left top;
+	}
+	.ContactBlockWrapper01 {
+		background: url(../images/bg-contact-top.gif) no-repeat left top;
+	}
+	.ContactBlock {
+		background: url(../images/bg-contact-bottom.gif) no-repeat left bottom;
+		overflow: hidden;
+                padding-bottom: 10px;
+	}
+	.ContactAddress {
+		font-size: 12px;
+		float: left;
+		width: 450px;
+		padding: 20px 0 20px 25px;
+		color: #288587;
+	}
+		.ContactAddress h5 {
+			font-size: 12px;
+			padding: 5px 0;
+		}
+		.ContactAddress address {
+			font-style: normal;
+		}
+			.ContactAddress a:link,
+			.ContactAddress a:visited {
+				color: #288587;
+			}
+		.ContactAddress img {
+			padding: 10px 0 0 0;
+		}
+	.StaticContent {
+		font-size: 14px!important;
+		float: left;
+		width: 910px;
+		padding: 20px 0 20px 25px;
+		color: #000000;
+	}
+.StaticContent p{
+	font-size: 14px!important;
+}
+		.StaticContent h5 {
+			font-size: 12px;
+			padding: 5px 0;
+		}
+		.StaticContent address {
+			font-style: normal;
+		}
+			.ContactAddress a:link,
+			.ContactAddress a:visited {
+				color: #288587;
+			}
+		.StaticContent img {
+			padding: 10px 0 0 0;
+		}
+	.ContactInfo {
+		float: right;
+		width: 420px;
+		padding: 10px 30px 0 0;
+	}
+		.ContactInfo .Row {
+			padding: 14px 0 0 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #1c7e80;
+                        float: left;
+		}
+			.ContactInfo .Row label {
+				width: 90px;
+				padding: 0 8px 0 0;
+				text-align: right;
+				font-size: 12px;
+				float: left;
+				color: #1c7e80;
+			}
+			.ContactInfo .Row input {
+				background: none;
+				width: 300px;
+				height: 17px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+			}
+			.ContactInfo .Row textarea {
+				background: none;
+				width: 300px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+			}
+		.ContactInfo .SubmitRow {
+			padding: 14px 0 0 0;
+			overflow: hidden;
+                        float: left;
+		}
+			.ContactInfo .SubmitRow .SubmitBtn {
+				background: url(../images/btn-reset.gif) no-repeat left top;
+				display: block;
+				border: none;
+				width: 66px;
+				height: 23px;
+				color: #FFF;
+				text-align: center;
+				font-size: 12px;
+				float: left;
+				margin-left: 97px;
+				cursor: pointer;
+			}
+			.ContactInfo .SubmitRow .ResetBtn {
+				background: url(../images/btn-reset.gif) no-repeat left top;
+				display: block;
+				border: none;
+				width: 66px;
+				height: 23px;
+				color: #FFF;
+				text-align: center;
+				font-size: 12px;
+				float: right;
+				margin-right: 20px;
+				cursor: pointer;
+			}
+	.PromotionInfo {
+		margin: 0 auto;
+		width: 420px;
+		padding: 10px 30px 0 0;
+                overflow: hidden;
+	}
+		.PromotionInfo .Row {
+			padding: 14px 0 0 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #1c7e80;
+                        float: left;
+		}
+                .PromotionInfo .note {
+			color: #1c7e80;
+                        font-size: 12px;
+                        text-align: center;
+		}
+
+                .PromotionInfo .required{
+                        color: red;
+                }
+
+                .PromotionInfo .Row select {
+                        background: none;
+                        width: 100px;
+                        height: 17px;
+                        padding: 0;
+                        border: 1px solid #c9d5e3;
+                        font-size: 12px;
+                        float: right;
+                        color: #1c7e80;
+                        float: left;
+                /*        margin-left: 5px;*/
+                }
+                .PromotionInfo .Row a {
+                        color: #1c7e80;
+                }
+			.PromotionInfo .Row label {
+				width: 90px;
+				padding: 0 8px 0 0;
+				text-align: right;
+				font-size: 12px;
+				float: left;
+				color: #1c7e80;
+			}
+			.PromotionInfo .Row input {
+				background: none;
+				width: 300px;
+				height: 17px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+			}
+			.PromotionInfo .Row textarea {
+				background: none;
+				width: 300px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+			}
+		.PromotionInfo .SubmitRow {
+			padding: 14px 0 0 0;
+			overflow: hidden;
+                        float: left;
+		}
+			.PromotionInfo .SubmitRow .SubmitBtn {
+				background: url(../images/btn-reset.gif) no-repeat left top;
+				display: block;
+				border: none;
+				width: 66px;
+				height: 23px;
+				color: #FFF;
+				text-align: center;
+				font-size: 12px;
+				float: left;
+				margin-left: 97px;
+				cursor: pointer;
+			}
+			.PromotionInfo .SubmitRow .ResetBtn {
+				background: url(../images/btn-reset.gif) no-repeat left top;
+				display: block;
+				border: none;
+				width: 66px;
+				height: 23px;
+				color: #FFF;
+				text-align: center;
+				font-size: 12px;
+				float: right;
+				margin-right: 20px;
+				cursor: pointer;
+			}
+	.LoginForm1 {
+                font-size: 13px;
+                color: #1c7e80;
+		float: left;
+		width: 450px;
+		padding: 10px 30px 0 0;
+                margin: 10px 0 5px 20px;
+	}
+		.LoginForm1 .Row {
+/*                        width: 410px;*/
+			padding: 14px 0 0 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #1c7e80;
+                        float: left;
+		}
+		.LoginForm1 .Row.rememberMe {
+			padding: 14px 0 0 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #1c7e80;
+                        float: left;
+                        clear: both;
+		}
+		.LoginForm1 .note {
+			padding: 14px 0 0 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #1c7e80;
+                        float: right;
+                        width: 360px;
+                        text-align: center;
+		}
+			.LoginForm1 .Row label {
+				width: 120px;
+				padding: 0 8px 0 0;
+				text-align: right;
+				font-size: 12px;
+				float: left;
+				color: #1c7e80;
+			}
+			.LoginForm1 .Row input {
+				background: none;
+				width: 290px;
+				height: 17px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right !important;
+                                margin-right: 15px !important;
+                                color: #1c7e80;
+			}
+                        .LoginForm1 .Row input.juicustom {
+				background: none;
+				width: 290px;
+				height: 17px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: left !important;
+                                margin-right: 20px !important;
+                                color: #1c7e80;
+			}
+			.LoginForm1 .Row.rememberMe input {
+				background: none;
+				width: 10px;
+				height: 17px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+                                clear: both;
+			}
+			.LoginForm1 .Row textarea {
+				background: none;
+				width: 290px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+			}
+		.LoginForm1 .SubmitRow {
+			padding: 14px 0 0 30px;
+			overflow: hidden;
+                        float: left;
+                        width: 450px;
+		}
+			.LoginForm1 .SubmitRow .SubmitBtn {
+				background: url(../images/btn-reset.gif) no-repeat left top;
+				display: block;
+				border: none;
+				width: 66px;
+				height: 23px;
+				color: #FFF;
+				text-align: center;
+				font-size: 12px;
+				float: left;
+				margin-left: 97px;
+				cursor: pointer;
+			}
+        .CreateForm {
+                font-size: 13px;
+                color: #1c7e80;
+		float: left;
+		width: 450px;
+		padding: 10px 30px 0 0;
+                margin: 10px 0 5px 20px;
+	}
+		.CreateForm .Row {
+/*                        width: 410px;*/
+			padding: 14px 0 0 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #1c7e80;
+                        float: left;
+                        width: 435px;
+		}
+                .CreateForm .hint {
+                        margin-top: 5px;
+		}
+		.CreateForm .Row.rememberMe {
+			padding: 14px 0 0 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #1c7e80;
+                        float: left;
+                        clear: both;
+		}
+		.CreateForm .note {
+			padding: 14px 0 0 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #1c7e80;
+                        float: right;
+                        width: 360px;
+                        text-align: center;
+		}
+			.CreateForm .Row label {
+				width: 120px;
+				padding: 0 8px 0 0;
+				text-align: right;
+				font-size: 12px;
+				float: left;
+				color: #1c7e80;
+			}
+                        .CreateForm .Row label.VerifyCode {
+				margin-top: 30px;
+			}
+			.CreateForm .Row input {
+				background: none;
+				width: 290px;
+				height: 17px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right !important;
+                                margin-right: 15px !important;
+                                color: #1c7e80;
+			}
+                        .CreateForm .Row input.juicustom {
+				background: none;
+				width: 290px;
+				height: 17px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: left !important;
+                                margin-right: 20px !important;
+                                color: #1c7e80;
+			}
+			.CreateForm .Row.rememberMe input {
+				background: none;
+				width: 10px;
+				height: 17px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+                                clear: both;
+			}
+			.CreateForm .Row textarea {
+				background: none;
+				width: 290px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+			}
+		.CreateForm .SubmitRow {
+			padding: 14px 0 0 30px;
+			overflow: hidden;
+                        float: left;
+                        width: 450px;
+		}
+			.CreateForm .SubmitRow .SubmitBtn {
+				background: url(../images/btn-reset.gif) no-repeat left top;
+				display: block;
+				border: none;
+				width: 66px;
+				height: 23px;
+				color: #FFF;
+				text-align: center;
+				font-size: 12px;
+				float: left;
+				margin-left: 97px;
+				cursor: pointer;
+			}
+	.LoginForm2 {
+		float: right;
+		width: 420px;
+		padding: 10px 30px 5px 0;
+	}
+		.LoginForm2 .Row {
+			padding: 14px 0 0 0;
+                        overflow: hidden;
+                        font-size: 12px;
+                        color: #1c7e80;
+/*                        float: left;*/
+                        margin: 0 auto;
+                        clear: both;
+		}
+                .LoginForm2 .rememberMe {
+			float: left;
+                        border: 1px solid black !important;
+		}
+			.LoginForm2 .Row label {
+				width: 90px;
+				padding: 0 8px 0 0;
+				text-align: right;
+				font-size: 12px;
+				float: left;
+				color: #1c7e80;
+			}
+			.LoginForm2 .Row input {
+				background: none;
+				width: 300px;
+				height: 17px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+			}
+			.LoginForm2 .Row textarea {
+				background: none;
+				width: 300px;
+				padding: 0;
+				border: 1px solid #c9d5e3;
+				font-size: 12px;
+                                float: right;
+                                margin-right: 15px;
+                                color: #1c7e80;
+			}
+		.LoginForm2 .SubmitRow {
+			padding: 14px 0 0 0;
+			overflow: hidden;
+                        float: left;
+		}
+			.LoginForm2 .SubmitRow .SubmitBtn {
+				background: url(../images/btn-reset.gif) no-repeat left top;
+				display: block;
+				border: none;
+				width: 66px;
+				height: 23px;
+				color: #FFF;
+				text-align: center;
+				font-size: 12px;
+				float: left;
+				margin-left: 97px;
+				cursor: pointer;
+			}
+.portlet{
+/*        overflow: hidden;*/
+float: left;
+}
+.portlet .portlet-content{
+        margin: 0 !important;
+        padding: 0 !important;
+        float: left;
+}
+.ContactInfo .Row .hint{
+        float: right;
+        margin-right: 13px;
+        font-size: 11px;
+        color: #1c7e80;
+}
+.ContactInfo .note{
+/*        float: left;*/
+        margin-right: 13px;
+        font-size: 12px;
+        color: #1c7e80;
+        text-align: center;
+        width: 300px;
+        float: right;
+}
+
+.ContactInfo .required{
+        color: red;
+}
+
+.ContactInfo .Row select {
+        background: none;
+        width: 100px;
+        height: 17px;
+        padding: 0;
+        border: 1px solid #c9d5e3;
+        font-size: 12px;
+        float: right;
+        color: #1c7e80;
+        float: left;
+/*        margin-left: 5px;*/
+}
+.ContactInfo .Row a {
+        color: #1c7e80;
+}
+.LoginForm{
+    width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.errorSummary{
+    float: left;
+    margin: 5px 0 5px 0;
+    padding: 5px 5px 5px 10px;
+    font-size: 12px;
+    color: #1c7e80;
+    border: 2px solid #cc0000;
+    background-color: #ffeeee;
+    width: 400px;
+}
+.required{
+    color: red;
+}
+.error{
+    color: red !important;
+}
+input.error{
+    color: red !important;
+}
+
+.LoginForm1 .Row select {
+        background: none;
+/*        width: 100px;*/
+        height: 17px;
+        padding: 0;
+        border: 1px solid #c9d5e3;
+        font-size: 12px;
+        float: right;
+        color: #1c7e80;
+        float: left;
+/*        margin-left: 5px;*/
+}
+.CreateForm .Row select.question {
+        background: none;
+/*        width: 100px;*/
+        height: 17px;
+        padding: 0;
+        border: 1px solid #c9d5e3;
+        font-size: 12px;
+        float: right;
+        color: #1c7e80;
+        float: left;
+        width: 292px;
+/*        margin-left: 5px;*/
+}
+#content-appointment{
+        float: left;
+}
+.ui-tabs{
+        width: 470px !important;
+}
+.ui-tabs .ui-tabs-panel{
+        overflow: hidden !important;
+}
+
+.LoginForm1 .Row.accepted{
+    width: 440px;
+    height: 32px;
+    overflow: hidden;
+    float: right;
+/*    overflow: hidden;*/
+}
+.LoginForm1 .Row.accepted label{
+    width: 450px;
+    height: 100% !important;
+    float: right;
+/*    border: 1px solid black;*/
+    overflow: hidden;
+    cursor: pointer;
+}
+.LoginForm1 .Row.accepted input {
+        background: none;
+        width: 10px;
+        height: 17px;
+        padding: 0;
+        border: 1px solid #c9d5e3;
+        font-size: 12px;
+        float: right !important;
+/*        margin-right: 15px;*/
+        color: #1c7e80;
+/*        clear: both;*/
+}
+.LoginForm1 .Row.accepted label {
+        background: none;
+        width: 300px;
+        height: 17px;
+        padding: 2px 0 0 0;
+/*        border: 1px solid #c9d5e3;*/
+        font-size: 12px;
+        float: right;
+        margin-right: 15px;
+        color: #1c7e80;
+        text-align: left;
+/*        clear: both;*/
+}
+.LoginForm1 .Row .hint {
+        float: right;
+}
+.CreateForm .Row.accepted{
+    width: 440px;
+    height: 32px;
+    overflow: hidden;
+    float: right;
+/*    overflow: hidden;*/
+}
+.CreateForm .Row.accepted label{
+    width: 450px;
+    height: 100% !important;
+    float: right;
+/*    border: 1px solid black;*/
+    overflow: hidden;
+    cursor: pointer;
+}
+.CreateForm .Row.accepted input {
+        background: none;
+        width: 10px;
+        height: 17px;
+        padding: 0;
+        border: 1px solid #c9d5e3;
+        font-size: 12px;
+        float: right !important;
+/*        margin-right: 15px;*/
+        color: #1c7e80;
+/*        clear: both;*/
+}
+.CreateForm .Row.accepted label {
+        background: none;
+        width: 300px;
+        height: 17px;
+        padding: 2px 0 0 0;
+/*        border: 1px solid #c9d5e3;*/
+        font-size: 12px;
+        float: right;
+        margin-right: 15px;
+        color: #1c7e80;
+        text-align: left;
+/*        clear: both;*/
+}
+.CreateForm .Row .hint {
+        float: right;
+        width: 290px;
+        margin-right: 16px;
+}
+.hide{
+    display: none;
+}
+.active-appointment, a.active-appointment{
+    cursor: text;
+    font-size: 13px;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+}
+#myself{
+    text-decoration: none;
+    font-size: 13px;
+    color: #1c7e80;
+}
+#friend{
+    text-decoration: none;
+    font-size: 13px;
+    color: #1c7e80;
+}
+#patientID{
+    text-decoration: none;
+    font-size: 13px;
+    color: #1c7e80;
+}
+.line{
+    font-size: 13px;
+    color: #1c7e80;
+}
+
+			.FeedbackWidget {
+				background: url(../images/bg-feedback.png) no-repeat left top;
+				width: 275px;
+				height: 457px;
+/*				position: absolute;*/
+				right: 12px;
+				top: 290px;
+				font-size: 11px;
+                                float: left;
+                                margin: 10px 0 10px;
+			}
+				.FeedbackWidget blockquote {
+					color: #FFF;
+					width: 195px;
+                                        height: 56px;
+                                        overflow: hidden;
+					padding: 35px 0 0 5px;
+				}
+                                .FeedbackWidget blockquote a{
+					color: #FFF;
+				}
+                                .FeedbackWidget .Feedback-title {
+					color: #e5e5e5;
+					width: 195px;
+					padding: 9px 0 0 25px;
+                                        position: inherit;
+                                        font-size: 18px;
+				}
+				.FeedbackWidget cite {
+					color: #FAA614;
+					font-style: normal;
+					display: block;
+					padding: 53px 0 0 0;
+				}
+				.FeedbackWidget p {
+					color: #FFF;
+					width: 216px;
+					padding: 0px 0 19px 25px;
+				}
+                                .FeedbackWidget .jcarousel-next-horizontal{
+                                        top: 55px !important;
+                                }
+                                .FeedbackWidget .jcarousel-prev-horizontal{
+                                        top: 55px !important;
+                                }
+.standard-char{
+     font-size: 12px;
+     font-family: 'Arial';
+}
+.SubContent a, .Contact a, .News a, .ContentGS01 a{
+        color: #007476 !important;
+}
+/*.SubContentAff a, .Contact a, .News a, .ContentGS01 a{
+        color: #007476 !important;
+}*/
+#friend, #patientID, #myself{
+        color: #FAA614 !important;
+}
+#result-title{
+        font-size: 14px;
+        padding-left: 5px;
+}
+.Search {
+	float: left;
+        padding: 5px 0 0 5px;
+        width: 964px;
+}
+        .Search h4 {
+		background: url(../images/icon-yersin.gif) no-repeat left top;
+		font-size: 14px;
+		color: #FAA614;
+		padding: 0 0 0 22px;
+                margin-left: 7px;
+	}
+.WarnInfo{
+    padding: 10px 0 10px 10px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #1c7e80;
+/*    float: left;*/
+    background: none repeat scroll 0 0 #EFF7FF;
+    border: 1px solid #CCCCCC;
+    width: 95%;
+    margin: 10px auto;
+}
+.ContentWrapper .SubContentAff input.YersinButton {
+        background: url("../images/bg-doctor-button.gif") no-repeat scroll left top transparent;
+        color: #FFFFFF !important;
+        display: block;
+        width: 84px;
+        height: 23px;
+        font-size: 11px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        text-transform: uppercase;
+}
+#menu li.AffiliateMenu{
+    float: right;
+    border: 0;
+    background: none;
+}
+.AffiliateDetailWrapper {
+    font-size: 1.1em;
+	background:#e4e5e4 url(../images/bg-doctor-detail.jpg) left top no-repeat;
+	margin:9px 0 0;
+	padding:8px 18px 0 18px;
+}
+        .AffiliateDetailInfo02 {
+                padding:0 0 0 10px;
+                font-size:12px;
+        }
+        .AffiliateDetailInfo02 h5 {
+                font-size:12px;
+                padding:0 0 3px;
+        }
+        .AffiliateDetailInfo02 .ParagraphStyle02 {
+                padding:0 0 5px;
+        }
+a.disabled-link{
+        color: #a0a0a0 !important;
+}
+
+/* TABS */
+.tab-nav{width: 160px;float: left;}
+.tab-nav ul{list-style:none;margin:0;padding:0;background: url(../images/bg-menu-chuyenkhoa-content.png) left top repeat-y}
+.tab-nav ul li{margin-bottom: 1px}
+.tab-nav ul li a{ 
+	padding:6px 5px 6px 12px; 
+	text-decoration: none;
+	cursor:pointer;font-size:12px;color:#fff !important;display:block;line-height:20px;
+    background:url(../images/bg-menuItem-ck2.png) left bottom no-repeat;
+    font-weight: bold;position:relative;z-index:0;width: 143px;
+}
+.tab-nav ul li a.active,.tab-nav ul li a:hover{
+	color:#007476 !important;
+	/*border:1px solid #007476;*/
+	border-right:none;
+	padding:6px 5px 6px 12px;
+	background:url(../images/bg-menuItemLink-ck2.jpg) left top no-repeat;
+	margin-bottom: 1px;
+}
+.tab-nav ul li:first-child a{/*border-radius: 5px 0 0 0*/}
+.tab-nav ul li:last-child a{/*border-radius: 0 0 0 5px*/}
+.tab-contents{/*border:1px solid #007476;*/padding:10px 20px;width: 478px;float: left;margin-left: 1px;border-radius: 0 5px 5px 5px}
+.tab-contents2{border:1px solid #007476;padding:10px 8px;width: 250px;min-height: 230px;float: left;margin-left: 1px;border-radius: 0 5px 5px 5px;background: #fff;}
+.tab-contents2 .dt-item{margin-bottom: 15px;}
+.tab-container{margin-bottom:10px; margin-top: 18px;display: table;border: 1px solid #007476;padding: 1px;}
+.tab-content{display:none;}
+.tab-content:first-child{display:block;}
+.tab-content a {
+    color: #007476;
+    text-decoration: none;
+    outline: 0;
+    font-size: 14px;
+}
+
+/* DOCTER PAGE */
+.dt-item{width: 158px;margin:10px 0 5px 10px;float:left;min-height:168px;}
+.dt-item img{margin-bottom: 5px; border-radius: 4px;}
+.ser-item{width: 175px;float: left;margin: 10px 0 10px 30px;}
+.ser-item img{margin-bottom: 20px;}
+
+.dis-list{background: #f9f9f9;margin-top: 20px;}
+.dis-list th{background: #21c6ef;border-left: 1px solid #fff;font-weight: bold;color: #fff;text-align: center;}
+.dis-list th:first-child{border: none;border-radius: 5px 0 0 0 }
+.dis-list th.col3{border-radius: 0 5px 0 0;}
+.dis-list td{border: 1px solid #e9e9e9;padding: 0}
+.dis-list td.col3{	width: 122px;text-align: center;}
+.dis-list td.col3 a{display: inline-block;padding: 5px 10px;border-radius: 5px; background: #26bde2;color: #fff;}
+.dis-list td.col2{padding: 5px 10px 5px 30px !important}
+
+.text-center{text-align:center!important}
+.left {
+    float: left!important;
+}
+.alpha {
+    margin-left: 0!important;
+}
+.degree-text{
+    color: #000000;
+}
+.doctors-feature{
+    display: table;
+    margin: 0 auto;
+    margin-top: 12px;
+	background: #fedca6;
+	border-radius: 5px;
+}
+.doctors-block{
+    width: 330px;
+    margin: 25px 0 20px 10px;
+    float: left;
+    min-height: 120px;
+}
+.doctors-block img{
+    margin-bottom: 5px;
+    border-radius: 4px;
+	float:left
+}
+.doctors-block a{
+    color: #007476;
+    text-decoration: none;
+    outline: 0;
+    font-size: 14px;
+	float:left;
+}
+.header-left{
+	overflow: hidden;
+	margin-left:15px;
+	margin-top:25px;
+	float:left;
+}
+.header-left a img{
+	height:64px;
+}
+
+.row-1,.row-2{
+	text-align:center;
+}
+.row-1{
+	color:#fff;
+	background-color:#017477;
+}
+.row-2{
+	color:#fff;
+	background-color:#008fad;
+}
+.row-3 {
+	background-color: #bccad3;
+}
+table{
+	/*border: 1px solid #CCCCCC;*/
+}
+tr, td{
+	/*border: 1px;*/
+	/*vertical-align: top;*/
+}
+.row-3 td{padding:3%}
+.row-1 span{font-weight:bold}
+.row-1 td, .row-2 td{padding: 5%;}
+.row-1 .cam{
+	font-size: 14px;
+}
+.cam{color:#fcaa22;}
+.row-4-title1{
+	background: #9cc7ca;
+	font-weight: bold;
+}
+.row-4-title .row-4-n,.row-4-title .row-4-n3{
+	font-weight: bold;
+
+}
+.row-4 .str{
+	padding: 3px 0 3px 0px;
+}
+.row-4 .str1{
+	padding: 3px 0 3px 10px;
+}
+.row-4-title .row-4-n3,.row-4-title .row-4-n{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right: 4px;
+}
+.row-4-title1 .row-4-n3,.row-4-title1 .row-4-n{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right: 4px;
+}
+.space-line-table1{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 0!important;
+}
+.space-line-table{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 0!important;
+}
+.row-4-n3{width:2%;vertical-align: top;padding-left: 5px}
+.row-4-n{width:60%}
+.row-4-n2{width:38%;font-style:italic;text-align:right;padding-right: 5px;}
+.gsc-webResult .gsc-result .gs-title{
+	height: auto!important;
+}
+.cacgoikham-left{
+	width: 31.333333% !important;
+}
+.cacgoikham-left img{
+	padding-top: 10px;
+}
+.cacgoikham-right{
+	width: 64.666667% !important;
+	margin-bottom: 15px;
+	min-height: 120px !important;
+ }
+
+.sroll-top{
+	width: 3%;
+	margin:0 auto;
+	position: fixed;
+	bottom: 10px;
+	right: 40px;
+	opacity: 0.6;
+	cursor: pointer;
+}
+.sroll-top:hover{
+	opacity: 1;
+}
+.ten-bs1{
+	margin: 0 0 10px 0 !important;
+	/*text-transform: uppercase;*/
+	color:  #0b7576 ;
+	font-weight: bold;
+	text-align: left;
+	font-size:21px;
+	text-transform: uppercase;
+}
+.chuc-vu1{
+	margin: 0 0 5px 0 !important;
+	text-align: left;
+	color: #747474;
+}
+.menu-fixed{
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.xem-chi-tiet:after {
+	/*font-family: "Glyphicons Halflings";*/
+	content: "Đóng";
+}
+
+/* Icon when the collapsible content is hidden */
+.xem-chi-tiet.collapsed:after {
+	content: "Xem chi tiết";
+}
+p {
+    margin: 0 0 10px;
+}
+h2 a.breadcrumb{
+	color: #FAA614 !important;
+	line-height: 1em !important;
+	text-decoration: none;
+}
+.block-service{
+	float: left;
+	width: 220px;
+	margin-bottom: 20px;
+	padding-top: 8px;
+}
+.block-service img{
+	display: block;
+	margin: 0 auto;
+}
+.block-service h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	color: #626769;
+	font-weight: normal;
+	padding-top: 12px;
+}
+.block-service a{
+	line-height: normal !important;
+}
+.service-border{
+	background: url(../images/service-border.png) no-repeat left top;
+	width: 4px;
+	height: 144px;
+	float: left;
+}
+.ui-dialog{
+	z-index: 9999;
+}
+.ui-dialog .ui-dialog-titlebar-close span{
+	margin: -8px !important;
+}
+.ui-widget-overlay{
+	background: none !important;
+}
+.tuyet_trai{
+	background: url(../images/tuyet_trai.png);
+}
+.tuyet_phai{
+	background: url(../images/tuyet_phai.png);
+}

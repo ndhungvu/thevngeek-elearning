@@ -1,0 +1,950 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="language" content="en"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../default/themes/classic/css/as/base.css" />
+    <link rel="stylesheet" type="text/css" href="../default/themes/classic/css/as/text-thumbnail.css" />
+    <link rel="stylesheet" type="text/css" href="../default/themes/classic/css/mytheme/jquery-ui-1.10.3.custom.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="http://www.yersinclinic.com/js/as/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="http://www.yersinclinic.com/js/as/jquery.advancedSlider.min.js"></script>
+    <title>Yersin Clinic - Trang chủ</title>
+    <!-- blueprint CSS framework -->
+    <!--[if lt IE 8]>-->
+    <link rel="stylesheet" type="text/css" href="../default/themes/classic/css/ie.css" media="screen, projection"/>
+    <!-- [endif]-->
+
+    <link rel="stylesheet" type="text/css" href="../default/themes/classic/css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="../default/themes/classic/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="../default/themes/classic/css/skin.css"/>
+    <link rel="stylesheet" type="text/css" href="../default/themes/classic/css/common.css"/>
+
+    <script type="text/javascript" src="http://www.yersinclinic.com/js/common.js"></script>
+    <script type="text/javascript" src="http://www.yersinclinic.com/js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="http://www.yersinclinic.com/js/slider/jssor.js"></script>
+    <script type="text/javascript" src="http://www.yersinclinic.com/js/slider/jssor.slider.js"></script>
+   
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-32832916-1']);
+        _gaq.push(['_setDomainName', 'yersinclinic.com']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+
+<body><script type="text/javascript">
+/*<![CDATA[*/
+    jQuery(document).ready(function($) {
+        $('#lazy-loading-slider').advancedSlider({width: 977,
+            height: 276,
+            skin: 'text-thumbnail',
+            shadow: false,
+            effectType: 'fade',
+            overrideTransition: true,
+            slideButtons: false,
+            thumbnailType: 'scroller',
+            thumbnailWidth: 282,
+            thumbnailHeight: 85,
+            thumbnailOrientation: 'vertical',
+            thumbnailArrows: false,
+            thumbnailSwipe: false,
+            thumbnailMouseScroll: true,
+            thumbnailScrollbar: true,
+            scrollbarSkin: 'scrollbar-7-light',
+            keyboardNavigation: true,
+        });
+    });
+/*]]>*/
+</script>
+
+<div style="position:absolute; right:0;"></div>
+<div id="ajax-saving" class="processing hidden">Saving ...</div>
+<div id="ajax-loading" class="processing hidden">Loading ...</div>
+<div id="ajax-processing" class="processing hidden">Processing ...</div>
+
+<div id="main">
+    <div id="header">
+        <div class="header-left">
+            <a href="/vi/home" title="Yersin International Clinic"><img
+                    src="../default/themes/classic/images/logo-yersin.png"></a>
+            <a style="margin-left:10px;"
+               href=" http://www.yersinclinic.com/vi/documents/29/giai-vang-dinh-cao-chat-luong-quoc-te"
+               title="Yersin International Clinic"><img
+                    src="../default/themes/classic/images/logo-cup.png"></a>
+        </div>
+        <div class="HeaderContent"><br/>
+            <ul class="FuncWrapper02" style="margin-bottom: 8px;">
+                <li class="First">
+                    <a class="VN-flag disabled-link" href="#" title="Tiếng Việt" disabled="disabled"></a></li>
+                <li style="padding-right: 0px;">
+                    <a class="Eng-flag " href="/en/home" title="Tiếng Anh"></a>
+                </li>
+				<li><img src="../default/themes/classic/images/hotline.gif" height="20" /></li>
+            </ul>
+            <ul class="FuncWrapper02">
+                <li class="First">
+                    <a href="/vi/site/appointment" title="YÊU CẦU ĐẶT KHÁM">YÊU CẦU ĐẶT KHÁM</a>
+                </li>
+                <li class="First" style="padding-right: 10px;"><a href="/vi/doctor/action/list" title="TÌM BÁC SĨ">TÌM BÁC SĨ</a>
+                </li>
+                <li>
+                    <a href="http://hsba.yersinclinic.com" title="HỒ SƠ BỆNH ÁN">HỒ SƠ BỆNH ÁN</a>
+                </li>
+            </ul>
+            <div class="SearchBox">
+                <form id="cse-search-box" action="http://www.yersinclinic.com/vi/site/search" method="GET">
+                    <div>
+                        <input type="submit" name="sa" value="Tìm Kiếm" class="SearchSubmit" />
+                        <input type="hidden" name="cx" value="016270386322209301866:0ck9e8jgz-u" />
+                        <input type="hidden" name="cof" value="FORID:10" />
+                        <input type="hidden" name="ie" value="UTF-8" />
+                        <input type="hidden" name="lang" value="vi" />
+                        <input type="text" class="SearchTextBox" name="q" size="36" value="" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="MenuWrapper">
+        <ul id="menu">        
+            <li  class="First"><a value="site/index-----site/index" href="/vi/home" title="TRANG CHỦ" class='Active'>TRANG CHỦ</a></li>
+            <li ><a value="site/index-----doctor/action/index" href="/vi/our-doctors" title="BÁC SĨ" >BÁC SĨ</a></li>
+
+        
+            <li ><a value="site/index-----service" href="/vi/service" title="DỊCH VỤ" >DỊCH VỤ</a></li>
+
+        
+            <li ><a value="site/index-----specialist/act/view" href="/vi/specialist" title="CÁC CHUYÊN KHOA" >CÁC CHUYÊN KHOA</a></li>
+
+        
+            <li ><a value="site/index-----document/action/index" href="/vi/documents" title="THÔNG TIN Y KHOA" >THÔNG TIN Y KHOA</a></li>
+
+        
+            <li ><a value="site/index-----eventNews/action/index" href="/vi/event-news" title="TIN TỨC - SỰ KIỆN" >TIN TỨC - SỰ KIỆN</a></li>
+
+        
+            <li ><a value="site/index-----static/action/view" href="/vi/page/tuyen-dung" title="TUYỂN DỤNG" >TUYỂN DỤNG</a></li>
+
+        
+            <li ><a value="site/index-----site/contact" href="/vi/contact.html" title="LIÊN HỆ" >LIÊN HỆ</a></li>
+
+                <!--        <li><a href="http://khamonline.com/" target="_blank" title="Khám Online" >KHÁM ONLINE</a></li>-->
+                <!--            <li class="AffiliateMenu"><a href="">Affiliate</a></li>-->
+                <!--            <li class="AffiliateMenu"><a href="--><!--">Affiliate</a></li>-->
+            </ul>
+</div>    <div class="MainContentOuter">
+        <div class="MainContent">
+    <div class="MainContentInner">
+        <div id="content">
+            <div class="Intro">
+                        <script>
+        jssor_slider1_starter = function (containerId) {
+            var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+                $Loop: 0,                                       //[Optional] Enable loop(circular) of carousel or not, 0: stop, 1: loop, 2 rewind, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 5, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                    $Loop: 2,                                       //[Optional] Enable loop(circular) of carousel or not, 0: stop, 1: loop, 2 rewind, default value is 1
+                    $AutoCenter: 3,                                 //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+                    $SpacingX: 4,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                    $SpacingY: 4,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+                    $DisplayPieces: 4,                              //[Optional] Number of pieces to display, default value is 1
+                    $ParkingPosition: 0,                            //[Optional] The offset position to park thumbnail
+                    $Orientation: 2,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+                    $DisableDrag: false                             //[Optional] Disable drag or not, default value is false
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$(containerId, options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    var sliderWidth = parentWidth;
+
+                    //keep the slider width no more than 810
+                    sliderWidth = Math.min(sliderWidth, 977);
+
+                    jssor_slider1.$ScaleWidth(sliderWidth);
+                }
+                else
+                    $Jssor$.$Delay(ScaleSlider, 30);
+            }
+
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+
+            $Jssor$.$AddEvent(window, "resize", $Jssor$.$WindowResizeFilter(window, ScaleSlider));
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            //responsive code end
+        };
+    </script>
+
+
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 977px; height: 276px; background: #000; overflow: hidden; ">
+
+        <!-- Loading Screen -->
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+            <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px!important; width: 690px; height: 276px;
+            overflow: hidden;">
+                                                    <div>
+                <a href="http://yersinclinic.com/vi/document/action/view?cat=6&id=794"><img src='uploads/bannerEvent/vi/img-31.jpg' width="690" height="276" /></a>
+                <div u="thumb">
+                    <a href="http://yersinclinic.com/vi/document/action/view?cat=6&id=794"><h3 style="font-size:14px;font-weight: normal">HỘI THẢO " HPV & UNG THƯ Ở PHỤ NỮ"</h3></a>
+                </div>
+            </div>
+                                                        <div>
+                <a href="http://www.yersinclinic.com/vi/event-news-details/546/chuong-trinh-uu-dai-tam-soat-ung-thu-duong-tieu-hoa"><img src='http://www.yersinclinic.com//uploads/bannerEvent/vi/img-29.jpg' width="690" height="276" /></a>
+                <div u="thumb">
+                    <a href="http://www.yersinclinic.com/vi/event-news-details/546/chuong-trinh-uu-dai-tam-soat-ung-thu-duong-tieu-hoa"><h3 style="font-size:14px;font-weight: normal">ƯU ĐÃI ĐẶC BIỆT GÓI TẦM SOÁT UNG THƯ ĐƯỜNG TIÊU HÓA</h3></a>
+                </div>
+            </div>
+                                                        <div>
+                <a href="http://yersinclinic.com/vi/event-news-details/791/chuong-trinh-tuan-le-suc-khoe-vang"><img src='http://www.yersinclinic.com//uploads/bannerEvent/vi/img-30.jpg' width="690" height="276" /></a>
+                <div u="thumb">
+                    <a href="http://yersinclinic.com/vi/event-news-details/791/chuong-trinh-tuan-le-suc-khoe-vang"><h3 style="font-size:14px;font-weight: normal">CHƯƠNG TRÌNH " TUẦN LỄ SỨC KHỎE VÀNG "</h3></a>
+                </div>
+            </div>
+                                    </div>
+        <!--#region ThumbnailNavigator Skin Begin -->
+        <style>
+            /* jssor slider thumbnail navigator skin 11 css */
+            /*
+                jssort11            (normal)
+                .jssort11 .p:hover      (normal mouseover)
+                .jssort11 .pav          (active)
+                .jssort11 .pav:hover    (active mouseover)
+                .jssort11 .pdn          (mousedown)
+                */
+            .jssort11 {
+                position: absolute;
+                width: 288px;
+                height: 92px;
+                font-family: Arial, Helvetica, sans-serif;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background: #fff;
+            }
+
+            .jssort11 .p {
+                position: absolute;
+                width: 288px;
+                height: 92px;
+                background: #007476;
+            }
+
+            .jssort11 .tp {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+            .jssort11 .tp a{
+                font-size:14px;
+                padding:0px 14px 14px 0;
+                color:#fff;
+                display: block;
+                width: 265px;
+            }
+            .jssort11 .tp a:hover{
+                text-decoration: none;
+            }
+            .jssort11 .i, .jssort11 .pav:hover .i {
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                width: 60px;
+                height: 30px;
+                border: white 1px dashed;
+            }
+
+            * html .jssort11 .i {
+                width /**/: 62px;
+                height /**/: 32px;
+            }
+
+            .jssort11 .pav .i {
+                border: white 1px solid;
+            }
+
+            .jssort11 .t, .jssort11 .pav:hover .t {
+                position: absolute;
+                top: 3px;
+                left: 68px;
+                width: 129px;
+                height: 32px;
+                line-height: 32px;
+                text-align: center;
+                color: #fc9835;
+                font-size: 13px;
+                font-weight: 700;
+            }
+
+            .jssort11 .pav .t, .jssort11 .p:hover .t {
+                color: #fff;
+            }
+
+            .jssort11 .c, .jssort11 .pav:hover .c {
+                position: absolute;
+                top: 38px;
+                left: 3px;
+                width: 197px;
+                height: 31px;
+                line-height: 31px;
+                color: #fff;
+                font-size: 11px;
+                font-weight: 400;
+                overflow: hidden;
+            }
+
+            .jssort11 .pav .c, .jssort11 .p:hover .c {
+                color: #fc9835;
+            }
+
+            .jssort11 .t, .jssort11 .c {
+                transition: color 2s;
+                -moz-transition: color 2s;
+                -webkit-transition: color 2s;
+                -o-transition: color 2s;
+            }
+
+            .jssort11 .p:hover .t, .jssort11 .pav:hover .t, .jssort11 .p:hover .c, .jssort11 .pav:hover .c {
+                transition: none;
+                -moz-transition: none;
+                -webkit-transition: none;
+                -o-transition: none;
+            }
+
+            .jssort11 .p:hover, .jssort11 .pav:hover {
+                background: #25383d;
+            }
+            .jssort11 .pav .tp a:hover{
+                text-decoration: none;
+            }
+
+            .jssort11 .pav, .jssort11 .p.pdn {
+                background: #25383d;
+
+            }
+            .jssort11 .pav .tp a{
+                color:#FAA614;
+                text-decoration: none;
+            }
+            .jssort11 .slide-0{
+                top:5px!important;
+            }
+            .jssort11 .slide-1{
+                top:98px!important;
+            }
+            .jssort11 .slide-2{
+                top: 191px!important;
+            }
+        </style>
+        <div u="thumbnavigator" class="jssort11" style="top:0px; right:0px;height:276px;width:288px;">
+            <!-- Thumbnail Item Skin Begin -->
+            <div u="slides" style="cursor: default;top:-4px!important;">
+                <div u="prototype" class="p" style="top: 0; left: 0; ">
+                    <div u="thumbnailtemplate" class="tp"></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!--#endregion ThumbnailNavigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        <!-- Trigger -->
+        <script>
+            jssor_slider1_starter('slider1_container');
+        </script>
+    </div>
+
+
+<!--    <div class="advanced-slider" id="lazy-loading-slider">-->
+<!--        <ul class="slides">-->
+<!--            --><!--            --><!--                --><!--                <li class="slide" varl="--><!--" data-image="--><!--">-->
+<!--                    <a class="image" href="--><!--" target="_blank">-->
+<!--                        <img src='--><!--' width="690" height="276" />-->
+<!--                    </a>-->
+<!--                    <div class="thumbnail" varl="--><!--">-->
+<!--                        <a href="--><!--" target="_blank"><span class="title">--><!--</span></a>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                --><!--            --><!--        </ul>-->
+<!--    </div>-->
+    <marquee id="top-news" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style = "height: 20px; display: block; background-color: #007476; font-size: 13px; padding-top: 5px; color: #FFF; font-weight: bold;"><a style="color:#fff" href=" http://www.yersinclinic.com/vi/documents/29/giai-vang-dinh-cao-chat-luong-quoc-te" target="_blank">Phòng khám Đa khoa Quốc tế YERSIN được tổ chức BID (Business Initiative Direction) trao tặng giải thưởng Đỉnh Cao Chất Lượng Quốc Tế IQS 2015</a></marquee>
+            </div>
+            <div class="Service">
+                                <h2>Yersin hân hạnh phục vụ quý khách</h2>
+                <div class="ServiceContent">
+<!--                    <iframe class="ServiceIntroImg" width="290" height="200" src="--><!--" frameborder="0" allowfullscreen></iframe>-->
+<!--                    <img src="../default/themes/classic/images/noi-soi.png" width="290" height="150" class="ServiceIntroImg" />-->
+<!--                    <img src="/images/img-01.jpg" width="152" height="146" class="ServiceIntroImg" />
+                <img src="/images/logo-besthospital.png" width="121" height="140" class="BestHospitalImg" />-->
+                                        					<div class="block-service">
+                        <a href="http://www.yersinclinic.com/vi/service/34/cac-goi-kham-suc-khoe" title="Gói khám sức khỏe">
+                            <img width="190" height="111" src="../default/themes/classic/images/goi_kham.png">
+                            <h3>Gói khám sức khỏe</h3>
+                        </a>
+                    </div>
+                    <div class="service-border"></div>
+                    <div class="block-service">
+                        <a href="http://www.yersinclinic.com/vi/service/29/bao-hiem" title="Bảo hiểm">
+                            <img width="190" height="111" src="../default/themes/classic/images/bao_hiem.png">
+                            <h3>Bảo hiểm</h3>
+                        </a>
+                    </div>
+                    <div class="service-border"></div>
+                    <div class="block-service">
+                        <a href="http://www.yersinclinic.com/vi/service/28/chung-ngua" title="Chủng ngừa">
+                            <img width="190" height="111" src="../default/themes/classic/images/chung_ngua.png">
+                            <h3>Chủng ngừa</h3>
+                        </a>
+                    </div>
+                    <div class="block-service">
+                        <a href="http://www.yersinclinic.com/vi/service/27/the-thanh-vien-yersin" title="Thẻ thành viên">
+                            <img width="190" height="111" src="../default/themes/classic/images/the_thanh_vien.png">
+                            <h3>Thẻ thành viên</h3>
+                        </a>
+                    </div>
+                    <div class="service-border"></div>
+                    <div class="block-service">
+                        <a href="http://www.yersinclinic.com/vi/service/33/dich-vu-le" title="Dịch vụ lẻ">
+                            <img width="190" height="111" src="../default/themes/classic/images/dich_vu_le.png">
+                            <h3>Dịch vụ lẻ</h3>
+                        </a>
+                    </div>
+                    <div class="service-border"></div>
+                    <div class="block-service">
+                        <a href="http://www.yersinclinic.com/vi/service/35/dich-vu-khac" title="Dịch vụ khác">
+                            <img width="190" height="111" src="../default/themes/classic/images/dich_vu_khac.png">
+                            <h3>Dịch vụ khác</h3>
+                        </a>
+                    </div>
+					                </div>
+            </div>
+            <div class="News">
+                <div class="MainNews">
+                    <h3><a href="http://www.yersinclinic.com/vi/page/about-us">Giới thiệu Phòng khám</a></h3>
+<!--                    <h3>--><!--</h3>-->
+                    <p><span>Phòng khám Đa khoa Quốc tế Yersin được định hướng để trở thành một đơn vị y tế có chất lượng ngang tầm khu vực và quốc tế.</span><a href="http://www.yersinclinic.com/vi/page/about-us"> Xem thêm ... </a></p>
+                    <a href="http://yersinclinic.com/profile/" target="_blank"><img src="../default/themes/classic/images/img-02.jpg" width="312" /></a><br /><br />
+                    <iframe class="ServiceIntroImg" width="312" height="174" src="//www.youtube.com/embed/mMMbbhN3xvM" frameborder="0" allowfullscreen></iframe>
+                </div>
+                                                    <div class="ListNews">
+                        <h3>Tin mới cập nhật</h3>
+                        <ul>
+                            <li class="First">
+                                    <div class="NewsImg"><a href="/vi/event-news-details/794/hoi-thao-hpv-va-ung-thu-o-phu-nu" title=""><img src="/uploads/documents/img-794.jpg" width="68" height="40" /></a></div>
+                                    <div class="NewsContent">
+                                        <h4><a href="/vi/event-news-details/794/hoi-thao-hpv-va-ung-thu-o-phu-nu">Hội Thảo "HPV Và Ung Thư Ở Phụ Nữ"</a></h4>
+                                        <p>
+                                            <p style="color: #474747; text-align: justify;"><span style="font-size: small;"><em>Các bệnh ung thư ở phụ nữ thường gặp nhất ...                                        </p>
+                                    </div>
+                                </li>
+                                                                                            <li>
+                                    <div class="NewsImg"><a href="/vi/event-news-details/798/mung-ngay-thay-thuoc-viet-nam-27-2-2017" title=""><img src="/uploads/documents/img-798.jpg" width="68" height="40" /></a></div>
+                                    <div class="NewsContent">
+                                        <h4><a href="/vi/event-news-details/798/mung-ngay-thay-thuoc-viet-nam-27-2-2017">Mừng ngày Thầy Thuốc Việt Nam 27/2/2017</a></h4>
+                                        <p>
+                                            <p style="text-align: justify;"><span style="font-size: small;">Vào ngày 27/2/2017, Ban giám đốc cùng đội ngũ y bác sĩ ...                                        </p>
+                                    </div>
+                                </li>
+                                                                                            <li>
+                                    <div class="NewsImg"><a href="/vi/document/797/thong-tin-ve-noi-soi-dai-trang" title=""><img src="/uploads/documents/img-797.jpg" width="68" height="40" /></a></div>
+                                    <div class="NewsContent">
+                                        <h4><a href="/vi/document/797/thong-tin-ve-noi-soi-dai-trang">Thông Tin Về Nội Soi Đại Tràng</a></h4>
+                                        <p>
+                                            <p style="text-align: justify;"><span style="font-size: small;"><em>Nội soi đại tràng là gì? Tại sao phải nội noi? Những ...                                        </p>
+                                    </div>
+                                </li>
+                                                                                            <li>
+                                    <div class="NewsImg"><a href="/vi/document/796/ung-thu-co-tu-cung" title=""><img src="/uploads/documents/img-796.jpg" width="68" height="40" /></a></div>
+                                    <div class="NewsContent">
+                                        <h4><a href="/vi/document/796/ung-thu-co-tu-cung">Ung Thư Cổ Tử Cung</a></h4>
+                                        <p>
+                                            <p style="text-align: justify;"><span style="font-size: small;"><em>Ung thư cổ tử cung không hiếm gặp. Theo thống kê của ...                                        </p>
+                                    </div>
+                                </li>
+                                                                                            <li>
+                                    <div class="NewsImg"><a href="/vi/document/795/u-xo-tu-cung" title=""><img src="/uploads/documents/img-795.jpg" width="68" height="40" /></a></div>
+                                    <div class="NewsContent">
+                                        <h4><a href="/vi/document/795/u-xo-tu-cung">U Xơ Tử Cung</a></h4>
+                                        <p>
+                                            <p style="text-align: justify;"><em style="font-style: italic;"><strong style="font-weight: bold;"><span style="font-size: small;">1. U Xơ Tử Cung là gì?</span></strong></em></p>
+...                                        </p>
+                                    </div>
+                                </li>
+                                                    </ul>
+                    </div>
+                                
+<!--<div class="Member">
+    <ul id="member-yersin" class="jcarousel-skin-tango">
+            <li style="margin-bottom: 20px;"><a href=""><img src="/uploads/ads/" width="200" height="85" /></a></li>
+            <li style="margin-bottom: 20px;"><a href=""><img src="/uploads/ads/" width="200" height="85" /></a></li>
+    </ul>
+</div>-->
+<!--<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('#member-yersin').jcarousel({
+            scroll: 1
+        });
+    });
+</script>-->
+<!--<div class="Member">
+    <ul id="member-yersin" class="jcarousel-skin-tango">
+        <li style="margin-bottom: 20px;">
+            <a href="http://www.yersinclinic.com/vi/site/appointment">
+                <img height="85" width="200" src="/uploads/ads/img-16.jpeg">
+            </a>
+        </li>
+        <li style="margin-bottom: 20px;">
+            <a href="http://www.yersinclinic.com/vi/site/appointment">
+                <img height="85" width="200" src="/uploads/ads/img-16.jpeg">
+            </a>
+        </li>
+        <li style="margin-bottom: 20px;">
+            <a href="http://www.yersinclinic.com/vi/site/appointment">
+                <img height="85" width="200" src="/uploads/ads/img-32.jpeg">
+            </a>
+        </li>
+        <li style="margin-bottom: 20px;">
+            <a href="http://www.yersinclinic.com/vi/site/appointment">
+                <img height="85" width="200" src="/uploads/ads/img-32.jpeg">
+            </a>
+        </li>
+    </ul>
+</div>-->
+
+<div class="Member" style="/*padding-top: 0;*/">
+<!-- Begin MailChimp Signup Form -->
+<!--<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">-->
+<!--<style type="text/css">-->
+<!--    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }-->
+<!--    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.-->
+<!--       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */-->
+<!--</style>-->
+<!--<div id="mc_embed_signup" style="width: 245px !important; float: right; font-family: Arial;">-->
+<!--    <form action="//greyneuron.us10.list-manage.com/subscribe/post?u=fa1735d7a56bc866e323b8737&amp;id=c2a0bc6b8d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>-->
+<!--        <div id="mc_embed_signup_scroll">-->
+<!--            <h2 style="font-size: 18px; color: #FAA614; text-transform: uppercase; font-weight: normal;">Đăng ký bản tin</h2>-->
+<!--<!--            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>-->
+<!--            <div class="mc-field-group" style="padding: 0; min-height: 40px;">-->
+<!--                <label for="mce-EMAIL" style="font-size: 13px; color: #707070;">Địa chỉ email<span class="asterisk" style="top: 18px !important;">*</span>-->
+<!--                </label>-->
+<!--                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="height: 1px; color: #1c7e80; border: 1px solid #c9d5e3;">-->
+<!--            </div>-->
+<!--<!--            <div class="mc-field-group" style="padding: 0;">-->
+<!--<!--                <label for="mce-FNAME" style="font-size: 13px; color: #707070;">Tên</label>-->
+<!--<!--                <input type="text" value="" name="FNAME" class="" id="mce-FNAME" style="height: 1px; color: #1c7e80; border: 1px solid #c9d5e3;">-->
+<!--<!--            </div>-->
+<!--<!--            <div class="mc-field-group" style="padding: 0;">-->
+<!--<!--                <label for="mce-LNAME" style="font-size: 13px; color: #707070;">Họ</label>-->
+<!--<!--                <input type="text" value="" name="LNAME" class="" id="mce-LNAME" style="height: 1px; color: #1c7e80; border: 1px solid #c9d5e3;">-->
+<!--<!--            </div>-->
+<!--            <div id="mce-responses" class="clear" style="margin: 0;">-->
+<!--                <div class="response" id="mce-error-response" style="display:none; padding-left: 0; margin: 0;"></div>-->
+<!--                <div class="response" id="mce-success-response" style="display:none; padding-left: 0; margin: 0;"></div>-->
+<!--            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+<!--            <div style="position: absolute; left: -5000px;"><input type="text" name="b_fa1735d7a56bc866e323b8737_c2a0bc6b8d" tabindex="-1" value=""></div>-->
+<!--            <div class="clear"><input type="submit" value="Đăng ký" name="subscribe" id="mc-embedded-subscribe" class="button" style="padding: 0 8px; font-size: 12px; height: 22px; line-height: 0px;"></div>-->
+<!--        </div>-->
+<!--    </form>-->
+<!--</div>-->
+<!--<script type='text/javascript' src='--><!--'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>-->
+<!--End mc_embed_signup-->
+                <ul id="member-yersin" class="jcarousel-skin-tango">
+                            <li style="margin-bottom: 1px;">
+                    <a href="http://yersinclinic.com/vi/page/trien-khai-ung-dung-tin-nhan-viber-ho-tro-khach-hang"><img class="1" src="/uploads/partner/img-10.jpg" height="133" width="228"></a>
+                </li>
+                            <li style="margin-bottom: 1px;">
+                    <a href="http://www.yersinclinic.com/vi/service/27/the-thanh-vien-yersin"><img class="1" src="/uploads/partner/img-6.jpg" height="133" width="228"></a>
+                </li>
+                            <li style="margin-bottom: 1px;">
+                    <a href="http://yersinclinic.com/datkhamcty/dangnhap.html"><img class="1" src="/uploads/partner/img-9.jpg" height="133" width="228"></a>
+                </li>
+                            <li style="margin-bottom: 1px;">
+                    <a href="http://yersinclinic.com/vi/event-news/29/giai-vang-dinh-cao-chat-luong-quoc-te"><img class="1" src="/uploads/partner/img-5.jpg" height="133" width="228"></a>
+                </li>
+                    </ul>
+    
+</div>            </div>
+            <!--<div style="position: absolute; right: 12px; top: 290px; cellpadding:0; cellspacing:0; "><a href="http://tuvan.yersinclinic.com/" target="_blank"><img src="/uploads/tuvanonline.png" /></a></div>-->
+            <script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery('#feedback-yersin').jcarousel({
+            scroll: 1
+        });
+    });
+</script>
+
+<div class="Feedback">
+    <div class="Feedback-title">Phản hồi</div>
+            <ul id="feedback-yersin" class="jcarousel-skin-tango-feedback">
+                            <li>
+                    <blockquote><a href="http://www.yersinclinic.com/vi/document/132/ca-sy-tuan-ngoc-tham-kham-tai-phong-kham-da-khoa-quoc-te-yersin">Xin cảm ơn tất cả nhân viên của Yersin từ bác sĩ Trần Quốc Vĩnh cho đến các y tá đã rất hết lòng cho tôi lần đầu đến với bệnh viện...</a></blockquote>
+                    <cite>[ Ca sĩ Tuấn Ngọc ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">Trang thiết bị vật chất mới, vệ sinh.
+Bác sĩ ân cần, tận tình, chu đáo.
+Nhân viên phụ vụ nhanh, lịch thiệp.</a></blockquote>
+                    <cite>[ Phùng Thị Ngọc Biên ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">Yersin có đội ngũ y bác sĩ vui vẻ, tận tâm; trang thiết bị hiện đại, cơ sở vật chất thoáng mát, sạch sẽ. Thời gian chờ kết quả xét nghiệm rất nhanh chóng.</a></blockquote>
+                    <cite>[ Lâm Nguyên Vũ - Rạch Giá, Kiên Giang ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">Tôi rất hài lòng về sự đón tiếp ân cần, vui vẻ của các nhân viên và sự tư vấn rất nhiệt tình của các bác sĩ ở đây. Tôi sẽ giới thiệu bạn bè tôi đến YERSIN.</a></blockquote>
+                    <cite>[ Văn Sỹ Hùng ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">Các bác sĩ ở đây rất chịu khó lắng nghe bệnh nhân, tư vấn tận tình phương cách tốt nhất để phòng và chữa bệnh, như một bài giảng vậy, rõ ràng và cần thiết.</a></blockquote>
+                    <cite>[ Ngô Hữu Dũng - Gò Vấp, TP HCM ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">Tôi đã từng làm nội soi ở nhiều nơi, nhưng chỉ có ở Yersin là dễ chịu nhất, sau nội soi tôi không hề bị đau cổ, mà hoàn toàn khỏe mạnh, vui vẻ.</a></blockquote>
+                    <cite>[ Nguyễn Thị Ngọc Huệ - Bình Chánh, HCM ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">Thái độ Bác sĩ tại Yersin vui vẻ, tận tình; nhân viên nói chuyện nhỏ nhẹ, ân cần.</a></blockquote>
+                    <cite>[ Phùng Trọng Toàn ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">I was impressed with the professional services of the clinic's staff. I felt welcomed from the time entering the clinic. </a></blockquote>
+                    <cite>[ Huynh Anh Thu ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">The checkings're well organised, thus saved time for clients. I'd like to partically thank Dr. Song Ha for her good advice & amicable personality.</a></blockquote>
+                    <cite>[ Huynh Anh Thu ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">Chuẩn và hợp lý với mọi người</a></blockquote>
+                    <cite>[ Nguyễn Tấn Phát - Gò Vấp, HCM ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">Cám ơn Hoàng đã giúp sắp xếp cho Bà của anh rất nhiều. Về nhà mẹ và bà cứ nhắc cái cậu Hoàng và bác sỹ Đức ân cần chu đáo quá...</a></blockquote>
+                    <cite>[ Trần Bảo Ngọc ]</cite>
+                </li>
+                            <li>
+                    <blockquote><a href="#">Nhân viên phục vụ chu đáo, hoà nhã, tận tình, máy móc hiện đại, bác sỹ chuyên nghiệp. Đặc biệt, bác sỹ Miên ân cần, cởi mở, chuyên môn cao. </a></blockquote>
+                    <cite>[ Phan Thị Thu Hằng ]</cite>
+                </li>
+                    </ul>
+    
+    <input id="submit-feedback" type="button" value="Gửi" class="SendBtn"/>
+</div>
+<div id="member-block">
+    <div id="FeedbackDialog">
+<div class="divFeedback"></div></div></div>
+<script type="text/javascript">
+    function popupFeedback()
+    {
+jQuery.ajax({'url':'/vi/site/feedback','data':$(this).serialize()+'&lang=\'vi\'','type':'post','dataType':'json','beforeSend':function(){
+                $("#ajax-loading").removeClass("hidden");
+            },'success':function(data)
+            {
+                $("#ajax-loading").addClass("hidden");
+                if (data.status == 'failure')
+                {
+                    $('#FeedbackDialog div.divFeedback').html(data.div);
+                    $('#FeedbackDialog div.divFeedback form').submit(popupFeedback);
+                }
+                else if(data.status == 'wrong'){
+                    $('#FeedbackDialog div.divFeedback .error-report').html(data.div);
+                    $('#FeedbackDialog div.divFeedback form').submit(popupFeedback);
+                }else {
+                    $('#FeedbackDialog div.divFeedback').html(data.div);
+                    setTimeout("$('#FeedbackDialog').dialog('close') ",3000);
+//                    $('#feedback-form').submit();
+                }
+             } ,'cache':false});;
+        return false;
+    }
+</script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery("#submit-feedback").click(function() {
+//            if (confirm("Chọn OK để tiếp tục.")) {
+            $(".divFeedback").html("Đang tải...");
+            $('html,body').scrollTop(0);
+            popupFeedback();
+            $("#FeedbackDialog").dialog("open");
+//            }
+            return false;
+        });
+    });
+</script>        </div>
+    </div>
+</div>
+
+
+        <center style="background-color: #FFF;padding-top:20px;">
+            <b style="font-size: 13px;">ĐỐI TÁC CỦA CHÚNG TÔI</b>
+            <table style="width: 420px;" border="0" cellspacing="10" cellpadding="3">
+                <tbody>
+                <tr>
+                    <td>
+                        <p style="text-align: center;"><a href="http://www.bumrungrad.com" target="_blank"><img
+                                    title="Bumrungrad International Hospital"
+                                    src="../uploads/attachments/partners/Bumrungrad.png"
+                                    alt="Bumrungrad International Hospital" width="126" height="40"/></a></p>
+                    </td>
+                    <td>
+                        <p style="text-align: center;"><a href="http://khamonline.com/" target="_blank"><img
+                                    style="text-align: center;" title="PackwayHealth"
+                                    src="../uploads/attachments/partners/khamonline.png" alt="KhamOnline"
+                                    width="216" height="40"/></a></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </center>
+    </div>
+    <div id="footer">
+        <div class="BranchListA">
+            <h4>YERSIN INTERNATIONAL CLINIC<br/>
+
+                <p style="color: #000;font-weight: normal;font-size:12px;margin-top:6px;">Số 10 Trương Định, Phường 6, Quận 3, Thành phố Hồ Chí Minh</p>
+            </h4>
+
+            <address style="font-weight:normal;">
+                <strong
+                    style="color:#007476">Thời gian hoạt động: Từ thứ 2 đến thứ 7 (7g30 sáng - 5g chiều)</strong><br/>
+                Tel: 08.39336688 - 08.39330039 Fax: 08.39304664<br/>
+                <!--                        <br />-->
+            </address>
+        </div>
+
+        <div class="CopyrightWrapper">
+            
+    <ul id="menu2">
+<!--        <li><a href="--><!--" title="TIN TỨC">TIN TỨC</a><span class="flash">/</span></li>-->
+                    <li  class="First"><a href="/vi/documents/6/tin-tuc" title="TIN TỨC" >TIN TỨC</a><span class="flash">/</span></li>
+
+                    <li ><a href="/vi/page/our-clients" title="KHÁCH HÀNG" >KHÁCH HÀNG</a><span class="flash">/</span></li>
+
+                    <li ><a href="/vi/contact.html" title="LIÊN HỆ" >LIÊN HỆ</a><span class="flash">/</span></li>
+
+        
+    </ul>
+            <p>Copyright &copy; 2011 <strong>Yersin International Clinic. All Rights Reserved. Developed
+                    by <a title="Grey Neuron" style="color: #038099;" href="http://www.greyneuron.com/">Grey Neuron</a>                    .</strong></p>
+            <ul>
+                <li>
+                    <a href="/vi/page/terms-of-use"
+                       title="Điều khoản chung">Điều khoản chung</a>
+                    |
+                </li>
+                <li>
+                    <a href="/vi/page/privacy-policy"
+                       title="Chính sách bảo mật">Chính sách bảo mật</a>
+                </li>
+                <!--<li><a href="" title=""></a></li>-->
+                <!--                        <li><a href="#" title=""></a></li>-->
+            </ul>
+        </div>
+
+                <!--                <ul class="BranchList">
+                                    <li class="First">
+                                        <h4></h4>
+                                        <address>
+                <br />
+                <br />http://www.greyneuron.com/
+                <br />
+                <a href="mailto:information@yersin.com"></a>
+                                        </address>
+                                    </li>
+                                    <li>
+                                        <h4></h4>
+                                        <address>
+                <br />
+                <br />
+                <br />
+                <a href="mailto:saigonclinic@yersin.com"></a>
+                                        </address>
+                                    </li>
+                                    <li>
+                                        <h4></h4>
+                                        <address>
+                <br />
+                <br />
+                <br />
+                Email: <a href="mailto:corporateservices@yersin.com"></a>
+                                        </address>
+                                    </li>
+                                    <li>
+                                        <h4></h4>
+                                        <address>
+                <br />
+                <br />
+                <br />
+                Email: <a href="mailto:fvh-cambodia@yersin.com"></a>
+                                        </address>
+                                    </li>
+                                </ul>-->
+    </div>
+<!--    <div id="noel-footer">-->
+<!--        <img style="width:100%;" src="--><!--/images/noelfooter.png">-->
+<!--    </div>-->
+
+    <div id="btn-top" class="sroll-top">
+        <img style="width:100%;" src="../default/themes/classic/images/arrow-top.png">
+    </div>
+<!--    <img style="position: fixed; top: 0; left: 0; z-index: 9999; width: 200px;" src="--><!--/images/qua_cau.png" alt=""/>-->
+<!--    <img style="position: fixed; top: 0; right: 0; z-index: 8888;" src="--><!--/images/tuyet_phai.png" alt=""/>-->
+<!--    <div class="tuyet_phai" style="position: fixed; top: 0; right: 0; z-index: 8888; width: 600px; height: 300px; pointer-events: none;" alt="" ></div>-->
+<!--    <div class="tuyet_trai" style="position: fixed; top: 0; left: 0; z-index: 8888; width: 600px; height: 300px; pointer-events: none;" alt="" ></div>-->
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    var saving = $('#ajax-loading').offset();
+    var topPadding = 0;
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > saving.top) {
+            $('#ajax-loading').stop().animate({
+                top: $(window).scrollTop() - saving.top + topPadding
+            });
+        } else {
+            $('#ajax-loading').stop().animate({
+                top: 0
+            });
+        }
+        ;
+    });
+    /*]]>*/
+
+
+</script>
+
+<script>
+    $(document).ready(function () {
+
+//        $( ".x-mas-header-img" ).animate({
+//            left: "450",
+//        }, 7000, function() {
+//            $(this).css("left", -250);
+//        });
+//        setInterval(function(){
+//            $( ".x-mas-header-img" ).animate({
+//                left: "450",
+//            }, 7000, function() {
+//                $(this).css("left", -250);
+//            });
+//        }, 7000);
+
+        $("#btn-top").click(function () {
+            $('html, body').animate({scrollTop: 0});
+        });
+        var $sidebar   = $(".SideContent-document"),
+            $sidebar1  = $(".SidebarGS01"),
+            $window    = $(window),
+            offset     = $sidebar.offset(),
+            topPadding = 15,
+            bottom = $(document).height()-1000,
+            bottom1 = $(document).height()-300;
+//        $(window).scroll(function (event) {
+//            var scroll = $(window).scrollTop();
+//
+////            var bottom = $(document).height() - 800;
+////            alert(bottom);
+//            // Do something
+//            if (scroll >= 100) {
+//                $('.MenuWrapper').addClass('menu-fixed');
+//            } else {
+//                $('.MenuWrapper').removeClass('menu-fixed');
+//            }
+//
+//            if ($window.scrollTop() >= 280 && $window.scrollTop() <= bottom) {
+//                $sidebar.stop().animate({
+//                    marginTop: $window.scrollTop() + topPadding - 280
+//                },0);
+//            } else if ($window.scrollTop() > bottom) {
+//                $sidebar.stop().animate({
+//                    marginTop: marginTop
+//                },0);
+//            } else if ($window.scrollTop() < 280) {
+//                $sidebar.stop().animate({
+//                    marginTop: 0
+//                },0);
+//            }
+//
+//
+//            if ($window.scrollTop() >= 280 && $window.scrollTop() <= bottom1) {
+//                $sidebar1.stop().animate({
+//                    marginTop: $window.scrollTop() + topPadding - 280
+//                },0);
+//            } else if ($window.scrollTop() > bottom1) {
+//                $sidebar1.stop().animate({
+//                    marginTop: marginTop
+//                },0);
+//            } else if ($window.scrollTop() < 280) {
+//                $sidebar1.stop().animate({
+//                    marginTop: 0
+//                },0);
+//            }
+//
+//        });
+//        $(document).snowfall({image :"///images/snow_fall.png", minSize: 40, maxSize:80});
+    });
+</script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-573051cccadd9c9a"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#FeedbackDialog').dialog({'resizable':false,'title':'PHẢN HỒI','autoOpen':false,'modal':true,'width':600,'position':{'my':'top','at':'top','of':'#menu'}});
+});
+/*]]>*/
+</script>
+</body>
+</html>

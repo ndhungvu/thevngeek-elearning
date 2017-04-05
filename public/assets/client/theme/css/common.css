@@ -1,0 +1,375 @@
+select {
+    border:0 !important;
+    outline: 1px inset black !important;
+    outline-offset: -1px !important;
+}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { 
+    background: #316441 url(/assets/client/theme/images/pattern.png) repeat center center !important;
+}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default {
+        background: #316441 !important;
+}
+.submenu-item{ border-bottom: 2px solid #316441 !important; border-top: 2px solid #316441 !important }
+/* index page css starts */
+header nav ul.nav-top li a{
+    padding: 7px 7px !important;
+}
+/*header nav ul.nav-top li.top-icons{ display:block !important; }*/
+#searchBar { display:none; visibility:none;}
+.navbg {
+    background: #eee none repeat scroll 0 0; border: 0 solid #ccc; margin: 0 0 20px; padding: 5px; 
+}
+.navbg ul {
+    margin: 0; padding: 0;
+}
+.navbg ul li {
+    float: left; 
+    list-style: outside none none; 
+    margin: 0;
+    padding: 4px 6px;
+}
+.navbg .navbg-box { background: #fff none repeat scroll 0 0; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 3px -6px #000; margin: 5px 2px; padding: 0; width: 265px; }
+.img-box img { border-radius: 4px; }
+.navbg .navbg-box h5 { font-size: 12px; font-weight: bold; line-height: 25px; margin: 0; padding: 1px 5px; text-align: left; text-transform: uppercase; }
+.navbg .navbg-box h5 a { color: #434343 !important; text-decoration: none; }
+.navbg .navbg-box h5 a:hover { text-decoration: none; }
+.img-box { margin: 0; padding: 4px; }
+.fa-inr:before { content: "\f156"; font-family: FontAwesome; font-style: normal; font-size: 100%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; position: relative; top: 2px; font-weight: normal; }
+ul.menu li a  { font-weight:normal; }
+a {
+    color: #428bca;
+}
+.sub-main-menu .sub-menuu {
+    border-right: 1px dotted #ccc;
+    border-left: 1px solid #ccc;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.sub-main-menu .sub-menuu img {
+	width: 100%;
+	height: 150px;
+}
+.sub-main-menu .sub-menuu h3 {
+	text-transform: initial;
+	color: #424242;
+	font-family: "Open Sans",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+.sub-main-menu .viewall {
+	right: 15px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.w-100-percent {
+	width: 100%;
+}
+.modal .modal-header {
+    text-align: center
+}
+.modal .title {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 16px 5px 16px;
+}
+.main-login input {
+	width: 100%;
+	border: 1px solid #d6d6d6;
+    line-height: 0px;
+    padding-left: 5px;
+    margin: 0;
+    padding: 8px 10px;
+}
+.main-login #submit {
+	width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: #0770dd;
+    border: none;
+    height: 46px;
+    border-radius: 4px;
+}
+.w-106 {
+    width: 106px;
+}
+.w-700 {
+	width: 700px;
+}
+.h-34-w-70 {
+    height: 34px;
+    width: 70px;
+}
+
+/*Modal Login*/
+.main-login .F-right a{
+ 	background: #3c5a99;
+    display: block;
+    width: 260px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 6px 27px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.main-login .F-right #login-google {
+    background: #da4a37;
+}
+
+.main-login .F-right #login-twitter {
+    background: #55acee;
+}
+.main-login .F-left {
+    width: 265px;
+    float: left;
+}
+.main-login .line-center{
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    width: 1px;
+    height: 275px;
+    background: #ccc;
+}
+.main-login .line-center .line {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 45%;
+}
+.main-login .line-center .line span {
+    background: #fff;
+    padding: 5px;
+    font-size: 16px;
+    color: #ccc;
+}
+.main-login .F-right {
+    width: 265px;
+    float: right;
+}
+.main-login .F-right span{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.main-login .checkbox {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkbox input[type="checkbox"] {
+    display: none;
+}
+.checkbox [type="checkbox"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    background: url(../images/icon/checkbox-off.png) no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+.main-login .checkbox label {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+    position: relative;
+    padding-left: 30px !important;
+    font-size: 11px;
+    min-height: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+.checkbox [type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    background: url(../images/icon/checkbox-on.png) no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+.center {
+    text-align: center;
+}
+.shares {
+    white-space: nowrap;
+    margin: 0;
+    margin-bottom: 5px;
+    background: transparent;
+    text-align: right;
+    width: 160px;
+    width: 100%;
+    font-size: 90%;
+}
+.language .btn {
+    margin: 0 0;
+    width: 106px;
+}
+.flagstrap {
+    height: 30px;
+}
+.flagstrap .dropdown-menu {
+    margin: 5px 0;
+}
+
+/*Comment*/
+.comment {
+    border-radius: 2px;
+    position: relative;
+    margin-top: 15px;
+    display: inline-block;
+}
+.comment.comment-me:hover {
+    background: #fff;
+    cursor: pointer;
+}
+.comment h4 {
+    font-weight: initial;
+    text-transform: none;
+}
+.comment h3 {
+    font-weight: initial;
+    text-transform: none;
+    color: #000;
+}
+.comment .media-left {
+    min-width: 40px;
+    padding-right: 0;
+    vertical-align: initial;
+    display: table-cell;
+    float: left;
+}
+.comment .media-left img {
+    width: 40px;
+    height: 40px;
+}
+.comment .media-body {
+    padding-left: 10px;
+    width: 80%;
+    float: left;
+}
+.comment .media-heading {
+    color: #00a0e9;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.comment .media-heading span {
+    font-size: 12px;
+    color: #999;
+    padding-left: 15px;
+}
+
+.comment .icon-del {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+.comment .delete {
+    font-size: 14px;
+    font-weight: 800;
+    color: #ccc;
+}
+.comment.me:hover .delete {
+    color: #e70012;
+}
+.comment-sub {
+    padding: 15px 0 15px 0;
+    border-radius: 2px;
+}
+.comment-sub .media-left {
+    min-width: 40px;
+    padding-right: 0;
+    vertical-align: initial;
+    width: 40px;
+    height: 40px;
+    display: table-cell;
+    float: left;
+}
+
+.comment-sub .comment-box {
+    position: relative;
+    padding-left: 55px;
+}
+.comment-sub .comment-box .caret-m {
+    position: absolute;
+    left: 46px;
+    top: 10px;
+}
+.comment-sub .comment-box .caret-m:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 10px solid #ccc;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+.comment-sub .comment-box .caret-m:after {
+    content: '';
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    border-right: 9px solid #fff;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+}
+.comment-sub .comment-box textarea {
+    position: relative;
+    background: #fff;
+    border: 1px solid #cccccc;
+    height: 38px;
+    min-height: 80px;
+    width: 100%;
+    border-radius: 2px;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.loading {
+    background: url(../images/loading.gif) no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: 48%;
+}

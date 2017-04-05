@@ -1,0 +1,3 @@
+Change this line in index.html
+<base href="http://thevngeek-elearning.com/">
+To your domain
