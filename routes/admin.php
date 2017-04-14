@@ -1,4 +1,5 @@
 <?php
+\URL::forceScheme('https');
 
 Route::get('/login', ['as' => 'login', 'uses' => 'AuthController@getLogin']);
 Route::post('/login', 'AuthController@postLogin');
