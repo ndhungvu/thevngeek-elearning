@@ -31,14 +31,14 @@
                   <div class="blog">
                      <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">
                         <div class="mycourse">
-                            <img src="https://www.tutorialspoint.com/assets/videotutorials/courses/java_servlet_online_training/380_course_105_image.jpg" alt="Tableau Online Training" />
+                            <img src="/assets/client/theme/images/signup-banner.png" alt="Tableau Online Training" />
                         </div>
                       </a>  
                       <div class="vid_title">
                          <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">Tableau Online Training</a>
                       </div>                 
                       <div class="vid_tutor_title"><a href="https://www.tutorialspoint.com/videotutorials/userview.php?userid=MTI0NTI2MzQxNTExMg==" title="Pavan Lalwani">
-                          <img src="https://www.tutorialspoint.com/assets/videotutorials/profiles/Pavan-Lalwani/40_1245263415112_image.jpg" alt="Pavan Lalwani"  /> Tuan Anh</a>
+                          <img src="/assets/client/theme/images/signup-banner.png" alt="Pavan Lalwani"  /> Tuan Anh</a>
                       </div>
                      <div class="clear"></div>
                   </div>
@@ -47,14 +47,14 @@
                   <div class="blog">
                      <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">
                         <div class="mycourse">
-                            <img src="https://www.tutorialspoint.com/assets/videotutorials/courses/mobile_marketing_online_training/380_course_103_image.jpg" alt="Tableau Online Training" />
+                            <img src="/assets/client/theme/images/signup-banner.png" alt="Tableau Online Training" />
                         </div>
                       </a>  
                       <div class="vid_title">
                          <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">Tableau Online Training</a>
                       </div>                 
                       <div class="vid_tutor_title"><a href="https://www.tutorialspoint.com/videotutorials/userview.php?userid=MTI0NTI2MzQxNTExMg==" title="Pavan Lalwani">
-                          <img src="https://www.tutorialspoint.com/assets/videotutorials/profiles/Pavan-Lalwani/40_1245263415112_image.jpg" alt="Pavan Lalwani"  /> Pavan Lalwani</a>
+                          <img src="/assets/client/theme/images/signup-banner.png" alt="Pavan Lalwani"  /> Pavan Lalwani</a>
                       </div>
                      <div class="clear"></div>
                   </div>
@@ -63,14 +63,14 @@
                 <div class="blog">
                    <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">
                       <div class="mycourse">
-                          <img src="https://www.tutorialspoint.com/assets/videotutorials/courses/tableau_online_training/380_course_111_image.jpg" alt="Tableau Online Training" />
+                          <img src="/assets/client/theme/images/signup-banner.png" alt="Tableau Online Training" />
                       </div>
                     </a>  
                     <div class="vid_title">
                        <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">Tableau Online Training</a>
                     </div>                 
                     <div class="vid_tutor_title"><a href="https://www.tutorialspoint.com/videotutorials/userview.php?userid=MTI0NTI2MzQxNTExMg==" title="Pavan Lalwani">
-                        <img src="https://www.tutorialspoint.com/assets/videotutorials/profiles/Pavan-Lalwani/40_1245263415112_image.jpg" alt="Pavan Lalwani"  /> Hai Vo</a>
+                        <img src="/assets/client/theme/images/signup-banner.png" alt="Pavan Lalwani"  /> Hai Vo</a>
                     </div>
                    <div class="clear"></div>
                 </div>
@@ -79,14 +79,14 @@
                   <div class="blog">
                      <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">
                         <div class="mycourse">
-                            <img src="https://www.tutorialspoint.com/assets/videotutorials/courses/php_online_training/380_course_89_image.jpg" alt="Tableau Online Training" />
+                            <img src="/assets/client/theme/images/signup-banner.png" alt="Tableau Online Training" />
                         </div>
                       </a>  
                       <div class="vid_title">
                          <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">Tableau Online Training</a>
                       </div>                 
                       <div class="vid_tutor_title"><a href="https://www.tutorialspoint.com/videotutorials/userview.php?userid=MTI0NTI2MzQxNTExMg==" title="Pavan Lalwani">
-                          <img src="https://www.tutorialspoint.com/assets/videotutorials/profiles/Pavan-Lalwani/40_1245263415112_image.jpg" alt="Pavan Lalwani"  /> Vu Nguyen</a>
+                          <img src="/assets/client/theme/images/signup-banner.png" alt="Pavan Lalwani"  /> Vu Nguyen</a>
                       </div>
                      <div class="clear"></div>
                   </div>
@@ -95,14 +95,14 @@
                 <div class="blog">
                    <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">
                       <div class="mycourse">
-                          <img src="https://www.tutorialspoint.com/assets/videotutorials/courses/nodejs_online_training/380_course_22_image.jpg" alt="Tableau Online Training" />
+                          <img src="/assets/client/theme/images/signup-banner.png" alt="Tableau Online Training" />
                       </div>
                     </a>  
                     <div class="vid_title">
                        <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">NodeJS Online Training</a>
                     </div>                 
                     <div class="vid_tutor_title"><a href="https://www.tutorialspoint.com/videotutorials/userview.php?userid=MTI0NTI2MzQxNTExMg==" title="Pavan Lalwani">
-                        <img src="https://www.tutorialspoint.com/assets/videotutorials/profiles/Pavan-Lalwani/40_1245263415112_image.jpg" alt="Pavan Lalwani"  /> Chat Luong</a>
+                        <img src="/assets/client/theme/images/signup-banner.png" alt="Pavan Lalwani"  /> Chat Luong</a>
                     </div>
                    <div class="clear"></div>
                 </div>
@@ -111,14 +111,14 @@
                   <div class="blog">
                      <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">
                         <div class="mycourse">
-                            <img src="https://www.tutorialspoint.com/assets/videotutorials/courses/oracle_db_online_training/380_course_80_image.jpg" alt="Tableau Online Training" />
+                            <img src="/assets/client/theme/images/signup-banner.png" alt="Tableau Online Training" />
                         </div>
                       </a>  
                       <div class="vid_title">
                          <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">Tableau Online Training</a>
                       </div>                 
                       <div class="vid_tutor_title"><a href="https://www.tutorialspoint.com/videotutorials/userview.php?userid=MTI0NTI2MzQxNTExMg==" title="Pavan Lalwani">
-                          <img src="https://www.tutorialspoint.com/assets/videotutorials/profiles/Pavan-Lalwani/40_1245263415112_image.jpg" alt="Pavan Lalwani"  /> Pavan Lalwani</a>
+                          <img src="/assets/client/theme/images/signup-banner.png" alt="Pavan Lalwani"  /> Pavan Lalwani</a>
                       </div>
                      <div class="clear"></div>
                   </div>
@@ -127,14 +127,14 @@
                 <div class="blog">
                    <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">
                       <div class="mycourse">
-                          <img src="https://www.tutorialspoint.com/assets/videotutorials/courses/python_online_training/380_course_59_image.jpg" />
+                          <img src="/assets/client/theme/images/signup-banner.png" />
                       </div>
                     </a>  
                     <div class="vid_title">
                        <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">Tableau Online Training</a>
                     </div>                 
                     <div class="vid_tutor_title"><a href="https://www.tutorialspoint.com/videotutorials/userview.php?userid=MTI0NTI2MzQxNTExMg==" title="Pavan Lalwani">
-                        <img src="https://www.tutorialspoint.com/assets/videotutorials/profiles/Pavan-Lalwani/40_1245263415112_image.jpg" alt="Pavan Lalwani"  /> Pavan Lalwani</a>
+                        <img src="/assets/client/theme/images/signup-banner.png" alt="Pavan Lalwani"  /> Pavan Lalwani</a>
                     </div>
                    <div class="clear"></div>
                 </div>
@@ -143,14 +143,14 @@
                   <div class="blog">
                      <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">
                         <div class="mycourse">
-                            <img src="https://www.tutorialspoint.com/assets/videotutorials/courses/adonet/380_course_75_image.jpg" alt="Tableau Online Training" />
+                            <img src="/assets/client/theme/images/signup-banner.png" alt="Tableau Online Training" />
                         </div>
                       </a>  
                       <div class="vid_title">
                          <a href="https://www.tutorialspoint.com/tableau_online_training/index.asp" title="Tableau Online Training">Tableau Online Training</a>
                       </div>                 
                       <div class="vid_tutor_title"><a href="https://www.tutorialspoint.com/videotutorials/userview.php?userid=MTI0NTI2MzQxNTExMg==" title="Pavan Lalwani">
-                          <img src="https://www.tutorialspoint.com/assets/videotutorials/profiles/Pavan-Lalwani/40_1245263415112_image.jpg" alt="Pavan Lalwani"  /> Pavan Lalwani</a>
+                          <img src="/assets/client/theme/images/signup-banner.png" alt="Pavan Lalwani"  /> Pavan Lalwani</a>
                       </div>
                      <div class="clear"></div>
                   </div>
@@ -176,7 +176,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-3">
           <a href="https://www.tutorialspoint.com/tutor_connect/index.php" target="_self">
-            <img src="https://www.tutorialspoint.com/tutor_connect/images/tutor_connect.png" title="Connecting tutors and students">
+            <img src="/assets/client/theme/images/tutorial.png" title="Connecting tutors and students">
           </a>
          </div>
         <div class="col-xs-12 col-sm-12 col-md-5">
@@ -198,7 +198,7 @@
     <a href="about/about_careers.htm" target="_blank" title="Jobs@Tutorials Point"><img style="width:100%; height: 300px;" title="Tutors/Trainers are needed" src="/assets/client/theme/images/netmeeting.jpg"></a>
 </div>
 
-<div class="absolutecls" style="background: #001E28 url(/assets/client/theme/images/pattern-xv.png); margin: 0px 0 4px 0;">
+<div class="absolutecls" style="background: #001E28 url(/assets/client/theme/images/learn-home.jpg); margin: 0px 0 4px 0;">
    <div class="container">
       <div class="row">
          <h2>Coding Ground</h2>
@@ -211,7 +211,7 @@
 
 <div id="global">
     <div id="tutorialslibrary">
-        <h1 class="thick-heading">|| Tutorials Library ||</h1>
+        <h1 class="thick-heading">Elearning Library</h1>
         <h4 class="center" style="font-size:20px; position:relative;">Free Online Tutorials &amp; Courses</h4>
     </div>
     <div class="container">
@@ -452,38 +452,38 @@
                 <div class="row">
                     <div class="col-md-4">
                         <blockquote class="testimonial">
-                            <p>This is a truly excellent collection of resources and highly recommended. They are succinct, to the point and well presented. Students will find them accessible, relevant and easily digestible.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         </blockquote>
                         <div class="testimonial-arrow-down"></div>
                         <div class="testimonial-author">
                             <div class="img-thumbnail img-thumbnail-small">
                                 <img src="/assets/client/theme/images/gordon.jpg" alt="Mr Gordon Moore">
                             </div>
-                            <p><strong>Mr. Gordon Moore</strong><span>Tutor - IT, Maths and Statistics, Keele University International Study Centre, UK</span></p>
+                            <p><strong>Mr. Henry</strong><span>CEO ABC</span></p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <blockquote class="testimonial">
-                            <p>It's amazing to have a website like tutorialspoint at zero price and providing the best self learning content. I always recommend my students to refer to tutorialspoint for their assignments.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         </blockquote>
                         <div class="testimonial-arrow-down"></div>
                         <div class="testimonial-author">
                             <div class="img-thumbnail img-thumbnail-small">
-                                <img src="/assets/client/theme/images/jahangir.jpg" alt="Dr. Jahangir">
+                                <img src="/assets/client/theme/images/gordon.jpg" alt="Dr. Jahangir">
                             </div>
-                            <p><strong>Dr. Jahangir Alam</strong><span>Assistant Professor, Aligarh Muslim University, Aligarh UP, India</span></p>
+                            <p><strong>Dr. Johny</strong><span>Web developer</span></p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <blockquote class="testimonial">
-                            <p>I began searching for quality instructional material to use in the classroom. The material found on the tutorialspoint website met all of the criteria. I now have quality material...</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         </blockquote>
                         <div class="testimonial-arrow-down"></div>
                             <div class="testimonial-author">
                             <div class="img-thumbnail img-thumbnail-small">
-                                <img src="/assets/client/theme/images/velma.jpg" alt="Velma Latson">
+                                <img src="/assets/client/theme/images/gordon.jpg" alt="Velma Latson">
                             </div>
-                            <p><strong>Velma Latson.</strong><span>Lecturer Computer Technology, Bowie State University, USA</span></p>
+                            <p><strong>Henrik David.</strong><span>Lecturer Computer Technology, Aptech</span></p>
                         </div>
                     </div>
                 </div>

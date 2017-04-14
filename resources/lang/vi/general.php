@@ -1,0 +1,46 @@
+<?php
+
+return [
+    'label' => [
+        'search'    =>  'Tìm Kiếm',
+        'keyword'   =>  'Từ khóa',
+        'status'    =>  'Trạng thái',
+        'list'      =>  'Danh sách',
+        'stt'        =>  'STT',
+        'edit'      =>  'Sửa',
+        'detail'    =>  'Chi tiết',
+        'delete'    =>  'Xóa',
+        'name'     =>   'Tên',
+        'alias'     =>  'Alias',
+        'description' => 'Mô tả',
+        'content'   =>  'Nội dung',
+        'image'     =>  'Hình ảnh',
+        'author'    =>  'Tác giả',
+        'function'  =>  'Chức năng',
+        'no_results'=>  'Không có kết quả',
+        'create_new'=>  'Tạo mới',
+        'category'  =>  'Danh mục',
+        'lesson'    =>  'Bài học',
+        'update'    =>  'Cập nhật',
+        'count_share' => 'Lượt chia sẻ',
+        'time_tracking'=> 'Thời gian làm bài',
+        'waiting'   => 'Đang chờ',
+        'public'    =>  'Công khai',
+        'cancel'    =>  'Hủy',
+        'blog'      =>  'Blog',
+        'yes'       =>  'Có',
+        'no'        =>  'Không',
+        'questions_list'  =>  'Danh sách câu hỏi',
+        'question'  =>  'Câu hỏi',
+        'add_question'   => 'Thêm câu hỏi',
+        'add_answer'    =>  'Thêm đáp án',
+        'answer'         =>  'Đáp án',
+        'explain'       =>  'Giải thích',
+    ],
+    'btn' => [
+        'cancel' => 'Hủy',
+        'search' => 'Tìm Kiếm',
+        'save'   => 'Lưu',
+        'back'   => 'Quay lại'
+    ]
+];

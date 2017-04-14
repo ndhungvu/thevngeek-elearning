@@ -6,16 +6,16 @@
             <!--Search-->
             <div class="box box-info">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Tìm Kiếm</h3>
+                    <h3 class="box-title">@lang('general.label.search')</h3>
                 </div>
                 {{ Form::open(['method' => 'GET', 'class'=>'form-horizontal', 'id' => 'frmSearch']) }}
                     <div class="box-body">
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">Từ khóa</label>
+                            <label class="col-sm-2 control-label">@lang('general.label.keyword')</label>
                             <div class="col-sm-4">
                                 {{ Form::text('keyword', '', ['class' => 'form-control', 'placeholder' => 'Tiêu đề, Mô tả, Nội dung']) }}
                             </div>
-                            <label class="col-sm-2 control-label">Trạng thái</label>
+                            <label class="col-sm-2 control-label">@lang('general.label.status')</label>
                             <div class="col-sm-4">
                                 {{ Form::select('status', App\Article::TYPE_STATUS, null, ['placeholder' => '---Choice---','class'=>'form-control']) }}
                             </div>
@@ -23,8 +23,8 @@
                     </div>
                     <div class="box-footer">
                         <div class="f-right">
-                            <a href="{!! route('admin.sesson.index') !!}" class="btn btn-default">Hủy</a>
-                            <button type="submit" class="btn btn-info ">Tìm Kiếm</button>
+                            <a href="{!! route('admin.sesson.index') !!}" class="btn btn-default">@lang('general.btn.cancel')</a>
+                            <button type="submit" class="btn btn-info ">@lang('general.btn.search')</button>
                         </div>
                     </div>
                 {{ Form::close() }}
@@ -32,7 +32,7 @@
             <!--End search-->
             <div class="box">
                 <div class="box-header">
-                    <h3 class="box-title">List articles</h3>
+                    <h3 class="box-title">@lang('general.label.list')</h3>
                     <div class="f-right">
                         <a href="{{ route('admin.sesson.create') }}" class="btn btn-primary">
                             <i class="fa fa-fw fa-plus"></i>
@@ -45,13 +45,13 @@
                 <div class="box-body table-responsive no-padding">
                     <table class="table table-hover table-bordered">
                         <tr>
-                            <th class="text-center w-100">No</th>
-                            <th class="text-center">Name</th>
-                            <th class="text-center">Description</th>
-                            <th class="text-center w-100">Image</th>
-                            <th class="text-center w-300">Author</th>
-                            <th class="text-center w-100">Status</th>
-                            <th class="text-center w-150">Function</th>
+                            <th class="text-center w-100">@lang('general.label.stt')</th>
+                            <th class="text-center">@lang('general.label.name')</th>
+                            <th class="text-center">@lang('general.label.description')</th>
+                            <th class="text-center w-100">@lang('general.label.image')</th>
+                            <th class="text-center w-300">@lang('general.label.author')</th>
+                            <th class="text-center w-100">@lang('general.label.status')</th>
+                            <th class="text-center w-150">@lang('general.label.function')</th>
                         </tr>
                         @if(!empty($sessons))
                             <?php
@@ -92,7 +92,7 @@
                             @endforeach
                         @else
                             <tr>
-                                <td colspan="7">No Results</td>
+                                <td colspan="7">@lang('general.label.no_results')</td>
                             </tr>
                         @endif
                     </table>

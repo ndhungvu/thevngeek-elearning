@@ -47,7 +47,11 @@
         <script src="/assets/admin/plugins/jQuery/jquery-2.2.3.min.js"></script>
         <script src="/assets/admin/js/jquery.validate.min.js"></script>
         <script src="{{ asset('assets/admin/dist/js/bootstrap-multiselect.js') }}"></script>
-
+        <!--Language-->
+        <script src="{{ asset('assets/js/lang.js') }}"></script>
+        <script type="text/javascript">
+            Lang.setLocale('{{\App::getLocale()}}');
+        </script>
         <script>
         window.Laravel = <?php echo json_encode([
             'csrfToken' => csrf_token(),
@@ -87,17 +91,6 @@
             </section>
             <!-- /.content -->
           </div>
-          <!--Footer-->
-          <footer class="main-footer">
-            <div class="pull-right hidden-xs">
-              <b>Version</b> 2.3.8
-            </div>
-            <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-            reserved.
-          </footer>
-          <!--Footer-->
-
-          <div class="control-sidebar-bg"></div>
         </div>
         <!-- ./wrapper -->
 
@@ -162,6 +155,6 @@
             </script>
         <!--End Ckeditor-->
         <script src="{{ asset('assets/admin/js/common.js') }}"></script>
-
+        
     </body>
 </html>

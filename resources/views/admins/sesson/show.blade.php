@@ -11,51 +11,49 @@
                     <table id="example1" class="table table-bordered table-striped">
                         <tbody>
                             <tr>
-                                <td class="w-200">Name</td>
+                                <td class="w-200">@lang('general.label.name')</td>
                                 <td>{!! $sesson->name !!}</td>
                             </tr>
                             <tr>
-                                <td>Alias</td>
+                                <td>@lang('general.label.alias')</td>
                                 <td>{!! $sesson->alias !!}</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
+                                <td>@lang('general.label.description')</td>
                                 <td>{!! $sesson->description !!}</td>
                             </tr>
                             <tr>
-                                <td>Content</td>
+                                <td>@lang('general.label.content')</td>
                                 <td>{!! $sesson->content !!}</td>
                             </tr>
                             <tr>
-                                <td>Image</td>
+                                <td>@lang('general.label.image')</td>
                                 <td>
                                     <img src="{!! $sesson->getImageUrl($sesson->image) !!}" alt=""  class="img-rounded w-200-h-150">
                                 </td>
                             </tr>
                             <tr>
-                                <td>Count shate</td>
-                                <td>{!! $sesson->count_shate !!}</td>
+                                <td>@lang('general.label.count_share')</td>
+                                <td>{!! $sesson->count_share !!}</td>
                             </tr>
                             <tr>
-                                <td>Status</td>
+                                <td>@lang('general.label.status')</td>
                                 <td>{!! App\Article::TYPE_STATUS[$sesson->status]  !!}</td>
                             </tr>
-                            @if(!empty($sesson->is_sesson))
-                            <tr>
-                                <td>Is Sessong</td>
-                                <td>Yes</td>
-                            </tr>
-                            <tr>
+                             <tr>
                                 <td>Time tracking</td>
                                 <td>{!! $sesson->time_tracking !!}</td>
                             </tr>
-                            @else
                             <tr>
-                                <td>Is Sessong</td>
-                                <td>No</td>
-                            </tr>
-                            @endif
-
+                                <td>@lang('general.label.blog')</td>
+                                <td>
+                                @if($sesson->is_blog)
+                                    @lang('general.label.yes')
+                                @else
+                                    @lang('general.label.no')
+                                @endif
+                                </td>
+                            </tr>                           
                         </tbody>
     
                     </table>

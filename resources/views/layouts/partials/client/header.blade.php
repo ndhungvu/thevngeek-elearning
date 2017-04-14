@@ -42,7 +42,7 @@
            <nav class="nav-main mega-menu">
               <ul class="nav nav-pills nav-main" id="mainMenu">
                   <li class="dropdown no-sub-menu">
-                      <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a>
+                      <a class="dropdown" href="#"><i class="icon icon-home"></i> Home</a>
                   </li>   
                   <li class="dropdown" id="liTL">
                       <a class="dropdown" href="javascript:void(0);"><span class="tut-lib"> Tutorials Library <i class="fa-caret-down"></i></span></a>
@@ -50,12 +50,12 @@
                    <li class="dropdown" id="liBlog">
                       <a class="dropdown" href="javascript:void(0);"><span class="tut-lib"> Blog <i class="fa-caret-down"></i></span></a>
                   </li>
-                  <li class="dropdown no-sub-menu">
+<!--                   <li class="dropdown no-sub-menu">
                       <a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutor Connect</a>
                   </li>
                   <li class="dropdown no-sub-menu">
                       <a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a>
-                  </li>
+                  </li> -->
                   <li class="dropdown no-sub-menu">
                       <div class="searchform-popup">
                           <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off">

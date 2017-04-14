@@ -22,10 +22,8 @@
             </div>
             <div class="col-md-4">
                 <h4>About us</h4>
+                <p class="about-footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
                 <ul class="list icons list-unstyled">
-                    <li><i class="icon icon-caret-right"></i> <a href="/about/index.htm">Company</a></li>
-                    <li><i class="icon icon-caret-right"></i> <a href="/about/about_team.htm">Our Team</a></li>
-                    <li><i class="icon icon-caret-right"></i> <a href="/about/about_careers.htm">Careers</a></li>
                     <li><i class="icon icon-caret-right"></i> <a href="/about/about_privacy.htm">Privacy Policy</a></li>
                     <li><i class="icon icon-caret-right"></i> <a href="/about/about_terms_of_use.htm">Terms of use</a></li>
                 </ul>
@@ -61,10 +59,9 @@
                   <div class="col-md-4 col-sm-12 col-xs-12">
                       <nav id="sub-menu">
                           <ul>
-                              <li><a href="/about/tutorials_writing.htm">Write for us</a></li>
-                              <li><a href="/about/faq.htm">FAQ's</a></li>
-                              <li><a href="/about/about_helping.htm">Helping</a></li>
-                              <li><a href="/about/contact_us.htm">Contact</a></li>
+                              <li><a href="#">Blog</a></li>
+                              <li><a href="#">FAQ's</a></li>
+                              <li><a href="#">Contact</a></li>
                           </ul>
                       </nav>
                   </div>
@@ -74,7 +71,7 @@
                   <div class="col-md-4 col-sm-12 col-xs-12">
                       <div class="news-group">
                           <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}">
-                          <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span>
+                          <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">Subscribe</button> </span>
                           <div id="newsresponse"></div>
                      </div>
                   </div>

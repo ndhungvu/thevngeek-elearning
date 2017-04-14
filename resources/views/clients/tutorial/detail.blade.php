@@ -44,21 +44,7 @@
                 </aside>
             </div>
             <!-- PRINTING STARTS HERE -->
-            <div class="col-md-9">
-                <div class="shares">
-                    <a href="javascript:void(0)">
-                        <img src="/assets/client/theme/images/facebook_icon.jpg" alt="img">
-                    </a>
-                    <a href="javascript:void(0)">
-                        <img src="/assets/client/theme/images/twitter_icon.jpg" alt="img">
-                    </a>
-                    <a href="javascript:void(0)">
-                    <img src="/assets/client/theme/images/linkedin_icon.jpg" alt="img">
-                    </a>
-                    <a href="javascript:void(0)">
-                        <img src="/assets/client/theme/images/googleplus_icon.jpg" alt="img">
-                    </a>
-                </div>
+            <div class="col-md-9">               
                 <div class="detail">
                     <div class="middle-col">
                         <div class="pre-btn">
@@ -67,8 +53,23 @@
                         <div class="nxt-btn">
                             <a href="/ant/ant_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a>
                         </div>
-                        <div class="clearer"></div>
                         <hr>
+                        <div class="clearer"></div>
+                        <div class="shares">
+                            <img src="/assets/client/theme/images/icon/like.png">
+                            <a href="javascript:void(0)">
+                                <img src="/assets/client/theme/images/facebook_icon.jpg" alt="img">
+                            </a>
+                            <a href="javascript:void(0)">
+                                <img src="/assets/client/theme/images/twitter_icon.jpg" alt="img">
+                            </a>
+                            <a href="javascript:void(0)">
+                            <img src="/assets/client/theme/images/linkedin_icon.jpg" alt="img">
+                            </a>
+                            <a href="javascript:void(0)">
+                                <img src="/assets/client/theme/images/googleplus_icon.jpg" alt="img">
+                            </a>
+                        </div>                        
                         <h1>Apache Ant Tutorial</h1>                        
                         <div>
                         <p>Apache Ant is a Java based build tool from Apache Software Foundation. Apache Ant's build files are written in XML and they take advantage of being open standard, portable and easy to understand.</p>
@@ -79,20 +80,22 @@
                         <h1>Prerequisites</h1>
                         <p>For this tutorial, it is assumed that the readers have prior knowledge of basic software development using java or any other programming language. This should help if you had some exposure to the software build and deployment process.</p>
                         <hr>
-                        <div class="pre-btn">
-                            <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a>
-                        </div>
-                        <div class="print-btn center">
-                            <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a>
-                        </div>
-                        <div class="pdf-btn">
-                            <a href="/ant/pdf/index.pdf" title="Apache Ant Tutorial" target="_blank"><i class="icon icon-file-pdf-o big-font"></i> PDF</a>
-                        </div>
-                        <div class="nxt-btn">
-                            <a href="/ant/ant_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a>
-                        </div>
+                        <div class="col-md-12">
+                            <div class="pre-btn col-md-3">
+                                <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a>
+                            </div>
+                            <div class="print-btn col-md-3">
+                                <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a>
+                            </div>
+                            <div class="pdf-btn col-md-3">
+                                <a href="/ant/pdf/index.pdf" title="Apache Ant Tutorial" target="_blank"><i class="icon icon-file-pdf-o big-font"></i> PDF</a>
+                            </div>
+                            <div class="nxt-btn col-md-3">
+                                <a href="/ant/ant_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a>
+                            </div>                           
+                        </div>                        
                         <hr>
-                        <!-- PRINTING ENDS HERE -->
+                        
                         <!--Comment-->
                         <div class="wp-comment col-md-12">
                             <h3>Comment</h3>

@@ -21,7 +21,7 @@
             .fa-briefcase:before {content:"\f0b1"; font-family:'FontAwesome'; font-style:normal; font-weight:normal; font-size:100%;}
             .fa-icons{font-size:120%; color:#4F4F42; position:relative; top:3px; padding:0px 10px 0px 0px;}
         </style>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="{{ asset('assets/client/theme/images/favicon.ico') }}" type="image/x-icon" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
@@ -40,6 +40,7 @@
         <![endif]-->
         <link rel="stylesheet" href="{{ asset('assets/client/theme/css/flags.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/client/theme/css/common.css') }}">
+        <link rel="stylesheet" href="{{ asset('assets/client/theme/css/common-sp.css') }}">
 
         <script src="{{ asset('assets/client/theme/js/script-min-v4.js') }}"></script>
         <!-- jQuery UI 1.11.4 -->
@@ -94,7 +95,8 @@
                                     <input id="c-login03" type="checkbox" name="remember" value="0">
                                     <label for="c-login03">Remember Me</label>
                                 </div>
-                                <button type="submit" id="submit">Login</button> </form>
+                                <button type="submit" id="submit">Login</button>
+                            </form>
                                 <a href="#">Forgot password?</a>
                         </div>
                         <div class="line-center">

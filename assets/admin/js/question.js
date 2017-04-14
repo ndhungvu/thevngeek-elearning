@@ -5,22 +5,22 @@ $('.jsAddQuestion').on('click', function() {
     var _question = '<div class="question" attr-question = "'+ _numberQuestion +'">' +
                 '<div class="col-sm-11 p-10">' +
                     '<div class="form-group">' +
-                        '<label for="content" class="col-sm-2 control-label">Câu hỏi</label>' +
+                        '<label for="content" class="col-sm-2 control-label">'+ Lang.get('general.label.question') +'</label>' +
                         '<div class="col-sm-10">' +
                             '<textarea class="form-control" rows="3" name="content['+ _numberQuestion +']" cols="50" id="content"></textarea>' +
                         '</div>' +
                     '</div>' +
                     '<div class="form-group">' +
-                        '<label for="description" class="col-sm-2 control-label">Giải thích</label>' +
+                        '<label for="description" class="col-sm-2 control-label">'+ Lang.get('general.label.explain') +'</label>' +
                         '<div class="col-sm-10">' +
                             '<textarea class="form-control" rows="3" name="description['+ _numberQuestion +']" cols="50" id="description"></textarea>' +
                         '</div>' +
                     '</div>' +
                     '<div class="form-group">' +
-                        '<label for="awser" class="col-sm-2 control-label">Đáp án</label>' +
+                        '<label for="awser" class="col-sm-2 control-label">'+ Lang.get('general.label.answer') +'</label>' +
                         '<div class="awsers col-sm-10"></div>' +
                         '<div class="col-sm-10 col-sm-offset-2 p-3">' +
-                            '<a href="javascript:void(0);" class="btn btn-warning jsAddAwser">Thêm đáp án</a>' +
+                            '<a href="javascript:void(0);" class="btn btn-warning jsAddAwser">'+ Lang.get('general.label.add_answer') +'</a>' +
                         '</div>  ' +          
                     '</div>' +                                
                 '</div>' +
@@ -99,19 +99,19 @@ function loadQuestions() {
                     var _html = ' <div class="question" attr-question="'+ _numberQuestion +'">' +
                                 '<div class="col-sm-11 p-10">' +
                                     '<div class="form-group">' +
-                                        '<label for="content" class="col-sm-2 control-label">Câu hỏi</label>' +
+                                        '<label for="content" class="col-sm-2 control-label">'+ Lang.get('general.label.question') +'</label>' +
                                         '<div class="col-sm-10">' +
                                             '<textarea class="form-control" rows="3" name="content['+ _numberQuestion +']" cols="50" id="content">'+ question.content +'</textarea>' +
                                         '</div>' +
                                     '</div>' +
                                     '<div class="form-group">' +
-                                        '<label for="description" class="col-sm-2 control-label">Giải thích</label>' +
+                                        '<label for="description" class="col-sm-2 control-label">'+ Lang.get('general.label.explain') +'</label>' +
                                         '<div class="col-sm-10">' +
                                             '<textarea class="form-control" rows="3" name="description['+ _numberQuestion +']" cols="50" id="description">'+ question.description +'</textarea>' +
                                         '</div>' +
                                     '</div>' +
                                     '<div class="form-group">' +
-                                        '<label for="awser" class="col-sm-2 control-label">Đáp án</label>' +
+                                        '<label for="awser" class="col-sm-2 control-label">'+ Lang.get('general.label.answer') +'</label>' +
                                         '<div class="awsers col-sm-10">';
                                             var awsers = question.awsers;
                                             $.each(awsers, function (key, awser) {
@@ -141,7 +141,7 @@ function loadQuestions() {
                                            });
                         _html = _html + '</div>' +
                                         '<div class="col-sm-10 col-sm-offset-2 p-3">' +
-                                            '<a href="javascript:void(0);" class="btn btn-warning jsAddAwser">Thêm đáp án</a>' +
+                                            '<a href="javascript:void(0);" class="btn btn-warning jsAddAwser">'+ Lang.get('general.label.add_answer') +'</a>' +
                                         '</div>' +
                                     '</div>' +
                                 '</div>' +

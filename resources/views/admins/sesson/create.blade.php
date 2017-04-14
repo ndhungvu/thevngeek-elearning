@@ -5,30 +5,30 @@
         <div class="col-xs-12">
             <div class="box box-info">
                 <div class="box-header with-border">
-                  <h3 class="box-title">Create Ssesson</h3>
+                  <h3 class="box-title">@lang('general.label.create_new')</h3>
                 </div>
                 {{ Form::open(['route' => 'admin.sesson.store','method' => 'POST','id' => 'frmArticle', 'class' => 'form-horizontal', 'enctype' => 'multipart/form-data']) }}
                     <div class="box-body">
                         <div class="form-group">
-                            <label for="name" class="col-sm-2 control-label">Tiêu đề<span class="required">*</span></label>
+                            <label class="col-sm-2 control-label">@lang('general.label.name')<span class="required">*</span></label>
                             <div class="col-sm-10">
                                 {{ Form::text('name', '', ['class'=>'form-control']) }}
                             </div>
                         </div>
                         <div class="form-group">
-                            {{ Form::label('description', 'Mô tả', ['class'=> 'col-sm-2 control-label']) }}
+                            <label class="col-sm-2 control-label">@lang('general.label.description')</label>
                             <div class="col-sm-10">
                                 {{ Form::textarea('description', '', ['class'=>'form-control', 'rows' => 3, 'maxlength' => 255]) }}
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="content" class="col-sm-2 control-label">Nội dung</label>
+                            <label class="col-sm-2 control-label">@lang('general.label.content')<span class="required">*</span></label>
                             <div class="col-sm-10">
                                 {{ Form::textarea('content', '', ['class'=>'form-control jsTextarea', 'id' => 'textarea', 'rows' => 5]) }}
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="content" class="col-sm-2 control-label">Categories</label>
+                            <label class="col-sm-2 control-label">@lang('general.label.category')</label>
                             <div class="col-sm-10">
                                 @if(!empty($trees))
                                 <ul class="treeview">
@@ -65,13 +65,13 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            {{ Form::label('Image', 'Image', ['class'=> 'col-sm-2 control-label']) }}
+                            <label class="col-sm-2 control-label">@lang('general.label.image')</label>
                             <div class="col-sm-10">
                                 {{ Form::file('image', ['id' => 'image'])}}
                             </div>
                         </div>                        
                         <div class="jsTimeTracking">
-                            <label for="time_tracking" class="col-sm-2 control-label">Thời gian làm bài<span class="required">*</span></label>
+                            <label class="col-sm-2 control-label">@lang('general.label.time_tracking')<span class="required">*</span></label>
                             <div class="col-sm-3">
                                 {{ Form::text('time_tracking', '', ['class'=>'form-control', 'min' => 0]) }}
                             </div>
@@ -80,15 +80,15 @@
                         <div class="form-group">
                             <div class="col-sm-10 col-sm-offset-2">
                                 <div class="checkbox">
-                                    <label>{{ Form::checkbox('is_blog', '1', '',['class' => 'jsBlog']) }} Blog</label>
+                                    <label>{{ Form::checkbox('is_blog', '1', '',['class' => 'jsBlog']) }} @lang('general.label.blog')</label>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="box-footer">
                         <div class="f-right">
-                            <a href="{!! route('admin.sesson.index') !!}" class="btn btn-default">Hủy</a>
-                            {{ Form::submit('Lưu',['class'=>'btn btn-primary']) }}
+                            <a href="{!! route('admin.sesson.index') !!}" class="btn btn-default">@lang('general.btn.back')</a>
+                            <input class="btn btn-primary" type="submit" value="@lang('general.btn.save')">
                         </div>
                     </div>
                 {{ Form::close() }}

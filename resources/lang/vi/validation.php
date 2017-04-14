@@ -136,5 +136,6 @@ return [
         'type' => 'loại',
         'object_id' => 'đối tượng',
         'keyword' => 'từ khóa',
+        'time_tracking'=> 'thời gian làm bài',
     ],
 ];
